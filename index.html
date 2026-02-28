@@ -33,8 +33,9 @@ a{color:var(--green-dark);text-decoration:none}
 /* LOGIN */
 #login-screen{display:flex;align-items:center;justify-content:center;min-height:100vh;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-light) 100%);padding:20px}
 .login-box{background:var(--white);border-radius:var(--radius-lg);padding:48px 40px;max-width:400px;width:100%;box-shadow:var(--shadow-lg);text-align:center}
-.login-logo{font-size:28px;font-weight:800;color:var(--navy);margin-bottom:4px;letter-spacing:-0.5px}
-.login-logo span{color:var(--green)}
+.login-logo{margin-bottom:4px}
+.login-logo img{height:40px;width:auto}
+.login-logo span{display:none}
 .login-subtitle{color:var(--gray-600);font-size:14px;margin-bottom:32px}
 .login-box input[type="password"]{width:100%;padding:14px 16px;border:2px solid var(--gray-300);border-radius:var(--radius);font-size:16px;transition:border-color .2s;outline:none}
 .login-box input[type="password"]:focus{border-color:var(--green)}
@@ -48,8 +49,8 @@ a{color:var(--green-dark);text-decoration:none}
 /* HEADER */
 header{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-light) 100%);color:var(--white);padding:0}
 .header-top{display:flex;align-items:center;justify-content:space-between;padding:16px 32px;border-bottom:1px solid rgba(255,255,255,0.08)}
-.logo{font-size:22px;font-weight:800;letter-spacing:-0.5px}
-.logo span{color:var(--green)}
+.logo img{height:32px;width:auto}
+.logo span{display:none}
 .logout-btn{background:rgba(255,255,255,0.1);color:var(--white);border:1px solid rgba(255,255,255,0.2);padding:8px 20px;border-radius:var(--radius);cursor:pointer;font-size:14px;transition:background .2s}
 .logout-btn:hover{background:rgba(255,255,255,0.2)}
 .hero{padding:40px 32px 48px;text-align:center}
@@ -167,7 +168,7 @@ footer{text-align:center;padding:32px;color:var(--gray-500);font-size:13px;borde
 <!-- LOGIN SCREEN -->
 <div id="login-screen">
   <div class="login-box">
-    <div class="login-logo">Scandic <span>IT</span></div>
+    <div class="login-logo"><img src="logo.jpg" alt="Scandic IT"></div>
     <div class="login-subtitle">Spare Parts Portal — Authorized Access Only</div>
     <form id="login-form" onsubmit="return handleLogin(event)">
       <input type="password" id="login-password" placeholder="Enter password" autocomplete="current-password" autofocus>
@@ -181,7 +182,7 @@ footer{text-align:center;padding:32px;color:var(--gray-500);font-size:13px;borde
 <div id="app">
   <header>
     <div class="header-top">
-      <div class="logo">Scandic <span>IT</span></div>
+      <div class="logo"><img src="logo.jpg" alt="Scandic IT"></div>
       <button class="logout-btn" onclick="logout()">Sign Out</button>
     </div>
     <div class="hero">
