@@ -466,8 +466,7 @@ async function sha256(str) {
 async function handleLogin(e) {
   e.preventDefault();
   const pw = document.getElementById('login-password').value;
-  const hash = await sha256(pw);
-  if (hash === PASS_HASH) {
+  if (pw === 'scandic2026') {
     sessionStorage.setItem('scandic_auth','1');
     showApp();
   } else {
