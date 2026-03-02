@@ -481,14 +481,16 @@ function initNav() {
 
 // === DASHBOARD ===
 function initDashboard() {
-  const totalParts = PARTS.length;
-  const modelsCovered = MODEL_NAMES.length;
+  const totalUnits = FLEET_TOTAL;
+  const stockRows = buildStockRows();
+  const totalAvailable = stockRows.reduce((s,r) => s + r.qty, 0);
+  const modelsCovered = Object.keys(FLEET).length;
   const crossParts = PARTS.filter(p => p.models.length > 1).length;
   const categories = [...new Set(PARTS.map(p => p.category))].length;
 
   const stats = [
-    { icon:'&#128230;', value:totalParts, label:'Total Parts in Inventory' },
-    { icon:'&#128187;', value:modelsCovered, label:'Models Covered' },
+    { icon:'&#128187;', value:totalUnits, label:'Total Units in Stock' },
+    { icon:'&#128230;', value:totalAvailable, label:'Total Available Parts' },
     { icon:'&#128260;', value:crossParts, label:'Cross-Compatible Parts' },
     { icon:'&#128193;', value:categories, label:'Part Categories' }
   ];
