@@ -513,7 +513,6 @@ function initDashboard() {
   const categories = [...new Set(PARTS.map(p => p.category))].length;
 
   const stats = [
-    { icon:'&#128187;', value:totalUnits, label:'Total Units in Stock' },
     { icon:'&#128230;', value:totalAvailable, label:'Total Available Parts' },
     { icon:'&#128260;', value:crossParts, label:'Cross-Compatible Parts' },
     { icon:'&#128193;', value:categories, label:'Part Categories' }
