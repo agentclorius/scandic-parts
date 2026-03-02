@@ -242,14 +242,7 @@ footer{text-align:center;padding:32px;color:var(--gray-500);font-size:13px;borde
     <div class="section" id="sec-dashboard">
       <div class="stats-grid" id="stats-grid"></div>
 
-      <h2 style="font-size:20px;color:var(--navy);margin-bottom:16px">Cross-Compatibility Groups</h2>
-      <p style="font-size:14px;color:var(--gray-600);margin-bottom:16px">Parts that work across multiple models reduce the number of unique SKUs to stock.</p>
-      <div class="compat-groups" id="compat-groups"></div>
-
-      <div class="notes-section">
-        <h2>Important Notes</h2>
-        <div id="important-notes"></div>
-      </div>
+      <!-- Cross-compat and notes removed — Dell-specific only -->
     </div>
 
     <!-- INVENTORY -->
@@ -534,13 +527,7 @@ function initDashboard() {
     `<div class="stat-card"><div class="stat-icon">${s.icon}</div><div class="stat-value">${s.value}</div><div class="stat-label">${s.label}</div></div>`
   ).join('');
 
-  document.getElementById('compat-groups').innerHTML = COMPAT_GROUPS.map(g =>
-    `<div class="compat-card"><h3>${g.name}</h3><div class="models-tag">${g.models}</div><ul>${g.shared.map(s=>`<li>${s}</li>`).join('')}</ul></div>`
-  ).join('');
-
-  document.getElementById('important-notes').innerHTML = IMPORTANT_NOTES.map(n =>
-    `<div class="note-item">${n}</div>`
-  ).join('');
+  // Cross-compat and notes removed
 }
 
 // === INVENTORY TABLE ===
