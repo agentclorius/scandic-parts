@@ -783,9 +783,8 @@ function initFleetStats() {
   document.getElementById('fleet-stats').innerHTML = html;
 
   // Populate filters
-  const allRows = buildStockRows();
-  const cats = ['All Categories', ...new Set(allRows.map(r => r.category))];
-  document.getElementById('stock-category').innerHTML = cats.map((c,i) => `<option value="${i===0?'':c}">${c}</option>`).join('');
+  const stockCats = ['All Categories', ...new Set(allRows.map(r => r.category))];
+  document.getElementById('stock-category').innerHTML = stockCats.map((c,i) => `<option value="${i===0?'':c}">${c}</option>`).join('');
 
   // Vendor filter
   const vendorsSel = document.getElementById('stock-vendor');
