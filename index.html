@@ -751,6 +751,30 @@ function buildStockRows() {
     }
     // Charger
     rows.push({ vendor, model, category:'Charger', description:'Power Adapter', detail:'', qty:d.count });
+    // Fan / Heatsink (laptops + desktops)
+    rows.push({ vendor, model, category:'Fan / Heatsink', description:'CPU Fan & Heatsink Assembly', detail:'', qty:d.count });
+    // Speakers (laptops only)
+    if (isLaptop) {
+      rows.push({ vendor, model, category:'Speakers', description:'Speaker Set', detail:'', qty:d.count });
+    }
+    // Hinges (laptops only)
+    if (isLaptop) {
+      rows.push({ vendor, model, category:'Hinges', description:'Hinge Set (L+R)', detail:'', qty:d.count });
+    }
+    // WLAN Card
+    rows.push({ vendor, model, category:'WLAN', description:'Wi-Fi Card', detail:'', qty:d.count });
+    // Webcam (laptops only)
+    if (isLaptop) {
+      rows.push({ vendor, model, category:'Webcam', description:'Webcam Module', detail:'', qty:d.count });
+    }
+    // Touchpad (laptops only)
+    if (isLaptop) {
+      rows.push({ vendor, model, category:'Touchpad', description:'Touchpad / Clickpad', detail:'', qty:d.count });
+    }
+    // Bottom Cover (laptops only)
+    if (isLaptop) {
+      rows.push({ vendor, model, category:'Bottom Cover', description:'Bottom Access Panel', detail:'', qty:d.count });
+    }
   }
   return rows;
 }
