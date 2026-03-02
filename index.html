@@ -774,11 +774,12 @@ function buildStockRows() {
 }
 
 function initFleetStats() {
+  const allRows = buildStockRows();
+  const cats = {};
+  allRows.forEach(r => { cats[r.category] = (cats[r.category]||0) + r.qty; });
   let html = '';
-  for (const [v, c] of Object.entries(VENDOR_COUNTS)) {
-    if (!v) continue;
-    const icons = {'Dell':'&#128430;','Lenovo':'&#128187;','HP':'&#128187;','Apple':'&#127822;','Microsoft':'&#128187;','HPE':'&#128187;'};
-    html += `<div class="stat-card"><div class="stat-icon">${icons[v]||'&#128187;'}</div><div class="stat-value">${c}</div><div class="stat-label">${v}</div></div>`;
+  for (const [cat, qty] of Object.entries(cats).sort((a,b) => b[1]-a[1])) {
+    html += `<div class="stat-card"><div class="stat-value">${qty}</div><div class="stat-label">${cat}</div></div>`;
   }
   document.getElementById('fleet-stats').innerHTML = html;
 
