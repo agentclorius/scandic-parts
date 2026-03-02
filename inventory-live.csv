@@ -269,7 +269,7 @@ Normal W&T
 1,Laptop,Dell,Latitude 5430,7Y4QHR3,i7-1265U,16 GB DDR4,256 GB,B,"Normal W&T, Small Marks on Screen",Ny Skærm,Yes,GBT,FALSE,Nordic (MUI),100.00%,Above,November '25
 1,Laptop,Dell,Latitude 5430,BZ1WSQ3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Whitespots on Screen (R)",,Yes,GBT,FALSE,French (Europe),100.00%,Above,November '25
 1,Laptop,Dell,Latitude 5430,JQ0YKR3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Scratches (Top Cover)",Nye RAM 16GB,Yes,GBT,TRUE,Swiss (Europe),87.00%,Above,November '25
-1,Laptop,Dell,Latitude 5430,8B185X3,i7-1265U,16 GB DDR4,256 GB,D,"Normal W&T, Heavy Tear (Top Cover (D)), Broken Screen (D)",,Yes,GBT,FALSE,English International,75.00%,Below,November '25
+1,Laptop,Dell,Latitude 5430,8B185X3,i7-1265U,16 GB DDR4,256 GB,D,"Normal W&T, Heavy Tear (Top Cover (D)), Broken Screen (D)",,Yes,GBT,FALSE,English International,55.00%,Below,November '25
 1,Laptop,Apple,"Macbook Pro 13 (A2338, 2022)",L34J0F4NYQ,M2,16 GB DDR5,512 GB,C,"Normal W&T, Marks on Screen, Locked: GBT US LLC",,Yes,GBT US LLC,,,86.00%,Above,December '25
 1,Laptop,Apple,"Macbook Pro 13"" (A1989/2019)",C02ZL23CLVDL,i7-8569U,16 GB DDR3,512 GB,C,"Normal W&T, Marks on Screen",,No,,,,82.00%,Above,December '25
 1,Laptop,Apple,"Macbook Pro 15 (A1707, 2016)",C02VD121HTDD,i7-7700HQ,16 GB DDR3,1024 GB,B,"Normal W&T, Small Marks on Screen",,No,,TRUE,English UK,81.00%,Above,December '25
@@ -293,7 +293,7 @@ Normal W&T
 1,Laptop,Dell,Latitude 5430,49J0WV3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover Edge & Palmrest, (R))",,Yes,GBT,FALSE,German,100.00%,Above,December '25
 1,Laptop,Dell,Latitude 5430,H7KGSQ3,i7-1255U,16 GB DDR4,256 GB,B,Normal W&T,,MAR,,TRUE,Scandinavian (MUI),83.00%,Above,December '25
 1,Laptop,Dell,Latitude 5430,GC7MSQ3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top cover & Palmrest(D)), Broken Bezel (D), Cracked Bottom Cover (D)",,Yes,GBT,FALSE,English UK,60.00%,Below,December '25
-1,Laptop,Dell,Latitude 5430,9HCGJR3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Defective Fan (R)",,Yes,GBT,FALSE,English UK,55.00%,Below,December '25
+1,Laptop,Dell,Latitude 5430,9HCGJR3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Scratches (Bottom Cover)",,Yes,GBT,TRUE,English UK,75.00%,Below,December '25
 1,Laptop,Dell,Latitude 5430,8QB0WV3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover, (R))",,Yes,GBT,FALSE,German,100.00%,Above,December '25
 1,Laptop,Dell,Latitude 5430,1KY1SQ3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Whitespots on Screen (W), HDD Health 27% (R)",,Yes,GBT,FALSE,Spanish Castillian,56.00%,Below,December '25
 1,Laptop,Dell,Latitude 5430,2H3SKR3,i7-1265U,16 GB DDR4,256 GB,D,"N W&T, Heavy Tear (Top & Bottom Cover (D)), Marks on Screen (D), Defective Keyboard (Unresponsive Key, (D))",,Yes,GBT,FALSE,English UK,75.00%,Below,December '25
