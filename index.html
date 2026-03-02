@@ -190,16 +190,51 @@ footer{text-align:center;padding:32px;color:var(--gray-500);font-size:13px;borde
       <p>Dell Latitude Parts Inventory &amp; Compatibility</p>
     </div>
     <div class="nav-tabs" id="nav-tabs">
-      <div class="nav-tab active" data-tab="dashboard">Dashboard</div>
-      <div class="nav-tab" data-tab="inventory">Inventory</div>
+      <div class="nav-tab active" data-tab="stock">Spare Parts Stock</div>
+      <div class="nav-tab" data-tab="dashboard">Dashboard</div>
+      <div class="nav-tab" data-tab="inventory">Reference</div>
       <div class="nav-tab" data-tab="comparison">Model Comparison</div>
       <div class="nav-tab" data-tab="boards">System Boards</div>
     </div>
   </header>
 
   <main>
+    <!-- SPARE PARTS STOCK -->
+    <div class="section active" id="sec-stock">
+      <div class="stats-grid" id="fleet-stats"></div>
+      <h2 style="font-size:20px;color:var(--navy);margin:24px 0 16px">Available Spare Parts</h2>
+      <div class="filters">
+        <div class="filter-group">
+          <label>Search</label>
+          <input type="text" id="stock-search" placeholder="Search parts or language..." oninput="renderStock()">
+        </div>
+        <div class="filter-group">
+          <label>Model</label>
+          <select id="stock-model" onchange="renderStock()">
+            <option value="">All Models</option>
+            <option>5410</option><option>5420</option><option>5430</option><option>5440</option><option>5450</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Category</label>
+          <select id="stock-category" onchange="renderStock()"><option value="">All Categories</option></select>
+        </div>
+      </div>
+      <div class="result-count" id="stock-count"></div>
+      <div class="table-wrap">
+        <table>
+          <thead id="stock-head"></thead>
+          <tbody id="stock-body"></tbody>
+        </table>
+      </div>
+      <div style="margin-top:24px;padding:20px;background:var(--green-light);border-radius:var(--radius-lg);text-align:center">
+        <p style="font-size:16px;font-weight:600;color:var(--green-dark)">Interested in ordering parts?</p>
+        <p style="font-size:14px;color:var(--gray-700);margin-top:4px">Contact us at <a href="mailto:info@scandic-it.com" style="color:var(--green-dark);font-weight:600">info@scandic-it.com</a> or call <strong>+45 70 20 70 60</strong></p>
+      </div>
+    </div>
+
     <!-- DASHBOARD -->
-    <div class="section active" id="sec-dashboard">
+    <div class="section" id="sec-dashboard">
       <div class="stats-grid" id="stats-grid"></div>
 
       <h2 style="font-size:20px;color:var(--navy);margin-bottom:16px">Cross-Compatibility Groups</h2>
@@ -369,6 +404,18 @@ const PARTS = [
   { category:'Other', description:'Bottom access panel/cover', models:['5410','5420','5430','5440','5450','3420','3430'], pn:'Per model', priority:'Low', notes:'Cosmetic' },
   { category:'Other', description:'Hinge caps / bezel', models:['5410','5420','5430','5440','5450','3420','3430'], pn:'Per model group', priority:'Medium', notes:'Cosmetic repair' }
 ];
+
+// === FLEET INVENTORY ===
+const FLEET = { '5410':21, '5420':38, '5430':88, '5440':13, '5450':2 };
+const FLEET_TOTAL = Object.values(FLEET).reduce((a,b)=>a+b,0);
+
+const KEYBOARDS = {
+  '5410': { 'German':10, 'French':4, 'Nordic':2, 'French (Europe)':1, 'Belgian':1, 'Unknown':3 },
+  '5420': { 'English UK':15, 'German':8, 'Spanish':5, 'French':4, 'Nordic':3, 'Norwegian':1, 'English US':1, 'English International':1 },
+  '5430': { 'French (Europe)':15, 'German':13, 'English UK':12, 'Spanish':11, 'Nordic':9, 'English International':6, 'Scandinavian (MUI)':6, 'Danish':5, 'French':3, 'Swiss':2, 'English US':2, 'Belgian':1, 'Czech/Slovak':1, 'Hungarian':1, 'Norwegian':1 },
+  '5440': { 'English International':4, 'English UK':3, 'Swedish/Finnish':2, 'French (Europe)':1, 'Czech/Slovak':1, 'English US':1, 'Belgian':1 },
+  '5450': { 'Swiss':1, 'English UK':1 }
+};
 
 const COMPAT_GROUPS = [
   { name:'Group A', models:'5420 + 5430', shared:['Keyboard / Palmrest','Speakers','Hinges','Fan / Heatsink','FHD non-touch screen','Battery (3-cell 41Wh)'] },
@@ -632,9 +679,68 @@ function initBoards() {
   ).join('');
 }
 
+// === SPARE PARTS STOCK ===
+function buildStockRows() {
+  const rows = [];
+  // For non-keyboard parts: qty = sum of fleet for compatible models
+  PARTS.filter(p => p.category !== 'Keyboard').forEach(p => {
+    const fleetModels = p.models.filter(m => FLEET[m] !== undefined);
+    const qty = fleetModels.reduce((sum, m) => sum + (FLEET[m]||0), 0);
+    if (qty > 0) {
+      rows.push({ category: p.category, description: p.description, models: fleetModels, language: '—', qty, pn: p.pn });
+    }
+  });
+  // For keyboards: one row per model+language combo
+  for (const [model, langs] of Object.entries(KEYBOARDS)) {
+    for (const [lang, qty] of Object.entries(langs)) {
+      if (qty > 0 && lang !== 'Unknown') {
+        rows.push({ category: 'Keyboard', description: `Palmrest + Keyboard (${model})`, models: [model], language: lang, qty, pn: 'Varies' });
+      }
+    }
+  }
+  return rows;
+}
+
+function initFleetStats() {
+  let html = `<div class="stat-card"><div class="stat-icon">&#128187;</div><div class="stat-value">${FLEET_TOTAL}</div><div class="stat-label">Total Units in Stock</div></div>`;
+  for (const [m, q] of Object.entries(FLEET)) {
+    html += `<div class="stat-card"><div class="stat-icon">&#128221;</div><div class="stat-value">${q}</div><div class="stat-label">Latitude ${m}</div></div>`;
+  }
+  document.getElementById('fleet-stats').innerHTML = html;
+  // Populate category filter
+  const cats = ['All Categories', ...new Set(buildStockRows().map(r => r.category))];
+  document.getElementById('stock-category').innerHTML = cats.map((c,i) => `<option value="${i===0?'':c}">${c}</option>`).join('');
+}
+
+function renderStock() {
+  const search = (document.getElementById('stock-search').value||'').toLowerCase();
+  const model = document.getElementById('stock-model').value;
+  const category = document.getElementById('stock-category').value;
+  let rows = buildStockRows();
+  if (search) rows = rows.filter(r => r.description.toLowerCase().includes(search) || r.language.toLowerCase().includes(search) || r.category.toLowerCase().includes(search) || r.pn.toLowerCase().includes(search));
+  if (model) rows = rows.filter(r => r.models.includes(model));
+  if (category) rows = rows.filter(r => r.category === category);
+  rows.sort((a,b) => b.qty - a.qty);
+
+  document.getElementById('stock-count').textContent = `Showing ${rows.length} parts`;
+  document.getElementById('stock-head').innerHTML = '<tr><th>Category</th><th>Part</th><th>Models</th><th>Language</th><th style="text-align:center">Available</th></tr>';
+  document.getElementById('stock-body').innerHTML = rows.map(r => {
+    const qtyClass = r.qty > 5 ? 'badge-cross' : r.qty > 0 ? 'badge-unique' : 'badge-high';
+    return `<tr>
+      <td><strong>${r.category}</strong></td>
+      <td>${r.description}</td>
+      <td><div class="models-cell">${r.models.map(m=>`<span class="model-tag">${m}</span>`).join('')}</div></td>
+      <td>${r.language}</td>
+      <td style="text-align:center"><span class="badge ${qtyClass}" style="font-size:14px;padding:4px 14px">${r.qty}</span></td>
+    </tr>`;
+  }).join('');
+}
+
 // === INIT ===
 function initApp() {
   initNav();
+  initFleetStats();
+  renderStock();
   initDashboard();
   initFilters();
   renderTable();
