@@ -190,14 +190,14 @@ footer{text-align:center;padding:32px;color:var(--gray-500);font-size:13px;borde
       <p>Device Parts Inventory &amp; Compatibility</p>
     </div>
     <div class="nav-tabs" id="nav-tabs">
-      <div class="nav-tab active" data-tab="dashboard">Dashboard</div>
-      <div class="nav-tab" data-tab="stock">Spare Parts Stock</div>
+      <div class="nav-tab active" data-tab="stock">Spare Parts Stock</div>
     </div>
   </header>
 
   <main>
     <!-- SPARE PARTS STOCK -->
-    <div class="section" id="sec-stock">
+    <div class="section active" id="sec-stock">
+      <div class="stats-grid" id="stock-stats" style="grid-template-columns:repeat(3,1fr);margin-bottom:24px"></div>
       <h2 style="font-size:20px;color:var(--navy);margin:0 0 16px">Available Spare Parts</h2>
       <div class="filters">
         <div class="filter-group">
@@ -235,7 +235,7 @@ footer{text-align:center;padding:32px;color:var(--gray-500);font-size:13px;borde
     </div>
 
     <!-- DASHBOARD -->
-    <div class="section active" id="sec-dashboard">
+    <div class="section" id="sec-dashboard" style="display:none">
       <div class="stats-grid" id="fleet-stats"></div>
       <div class="stats-grid" id="stats-grid"></div>
 
@@ -827,6 +827,16 @@ function renderStock() {
 function initApp() {
   initNav();
   initFleetStats();
+  // Stock summary cards
+  const allStockRows = buildStockRows();
+  const totalParts = allStockRows.reduce((s,r)=>s+r.qty,0);
+  const crossParts = PARTS.filter(p=>p.models&&p.models.length>1).length;
+  const partCats = new Set(allStockRows.map(r=>r.category)).size;
+  document.getElementById('stock-stats').innerHTML = [
+    {icon:'&#128230;',val:totalParts,label:'Total Available Parts'},
+    {icon:'&#128260;',val:crossParts,label:'Cross-Compatible Parts'},
+    {icon:'&#128193;',val:partCats,label:'Part Categories'}
+  ].map(s=>`<div class="stat-card"><div class="stat-icon">${s.icon}</div><div class="stat-value">${s.val}</div><div class="stat-label">${s.label}</div></div>`).join('');
   renderStock();
   initDashboard();
   initFilters();
