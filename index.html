@@ -190,15 +190,15 @@ footer{text-align:center;padding:32px;color:var(--gray-500);font-size:13px;borde
       <p>Device Parts Inventory &amp; Compatibility</p>
     </div>
     <div class="nav-tabs" id="nav-tabs">
-      <div class="nav-tab active" data-tab="stock">Spare Parts Stock</div>
+      <div class="nav-tab active" data-tab="dashboard">Dashboard</div>
+      <div class="nav-tab" data-tab="stock">Spare Parts Stock</div>
     </div>
   </header>
 
   <main>
     <!-- SPARE PARTS STOCK -->
-    <div class="section active" id="sec-stock">
-      <div class="stats-grid" id="fleet-stats"></div>
-      <h2 style="font-size:20px;color:var(--navy);margin:24px 0 16px">Available Spare Parts</h2>
+    <div class="section" id="sec-stock">
+      <h2 style="font-size:20px;color:var(--navy);margin:0 0 16px">Available Spare Parts</h2>
       <div class="filters">
         <div class="filter-group">
           <label>Search</label>
@@ -235,7 +235,7 @@ footer{text-align:center;padding:32px;color:var(--gray-500);font-size:13px;borde
     </div>
 
     <!-- DASHBOARD -->
-    <div class="section" id="sec-dashboard" style="display:none">
+    <div class="section active" id="sec-dashboard">
       <div class="stats-grid" id="stats-grid"></div>
 
       <!-- Cross-compat and notes removed — Dell-specific only -->
