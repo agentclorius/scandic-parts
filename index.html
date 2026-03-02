@@ -725,13 +725,19 @@ function buildStockRows() {
     const isDesktop = DESKTOP_MODELS.has(model);
     const isLaptop = !isDesktop && d.count > 0;
 
-    // System Boards (per CPU variant)
+    // System Boards (per CPU variant) — match PN from reference data
     for (const [cpu, qty] of Object.entries(d.cpus || {})) {
-      if (cpu) rows.push({ vendor, model, category:'System Board', description:`Motherboard (${cpu})`, detail:'', qty });
+      if (!cpu) continue;
+      const ref = PARTS.find(p => p.category === 'System Board' && p.description.includes(cpu));
+      const pn = ref ? ref.pn : '';
+      rows.push({ vendor, model, category:'System Board', description:`Motherboard (${cpu})`, detail:pn, qty });
     }
     // RAM (per spec)
     for (const [spec, qty] of Object.entries(d.ram || {})) {
-      if (spec) rows.push({ vendor, model, category:'RAM', description:spec, detail:'', qty });
+      if (spec) {
+        const ref = PARTS.find(p => p.category === 'RAM' && p.description.includes(spec.split(' ')[2]||'') && p.models && p.models.some(m=>model.includes(m)));
+        rows.push({ vendor, model, category:'RAM', description:spec, detail:ref?ref.pn:'', qty });
+      }
     }
     // SSD (per spec)
     for (const [spec, qty] of Object.entries(d.ssd || {})) {
@@ -739,7 +745,11 @@ function buildStockRows() {
     }
     // Keyboards (per layout)
     for (const [layout, qty] of Object.entries(d.keyboards || {})) {
-      if (layout) rows.push({ vendor, model, category:'Keyboard', description:'Keyboard / Palmrest', detail:layout, qty });
+      if (layout) {
+        const shortModel = model.replace('Latitude ','');
+        const ref = PARTS.find(p => p.category === 'Keyboard' && p.models && p.models.includes(shortModel));
+        rows.push({ vendor, model, category:'Keyboard', description:'Keyboard / Palmrest', detail:layout + (ref&&ref.pn!=='Varies'?' — PN: '+ref.pn:''), qty });
+      }
     }
     // Screen (1 per unit for laptops)
     if (isLaptop) {
