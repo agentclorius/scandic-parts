@@ -774,7 +774,7 @@ function buildStockRows() {
 }
 
 function initFleetStats() {
-  let html = `<div class="stat-card"><div class="stat-icon">&#128187;</div><div class="stat-value">${FLEET_TOTAL}</div><div class="stat-label">Total Units</div></div>`;
+  let html = '';
   for (const [v, c] of Object.entries(VENDOR_COUNTS)) {
     if (!v) continue;
     const icons = {'Dell':'&#128430;','Lenovo':'&#128187;','HP':'&#128187;','Apple':'&#127822;','Microsoft':'&#128187;','HPE':'&#128187;'};
