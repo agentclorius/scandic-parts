@@ -230,7 +230,7 @@ footer{text-align:center;padding:32px;color:var(--gray-500);font-size:13px;borde
       </div>
       <div style="margin-top:24px;padding:20px;background:var(--green-light);border-radius:var(--radius-lg);text-align:center">
         <p style="font-size:16px;font-weight:600;color:var(--green-dark)">Interested in ordering parts?</p>
-        <p style="font-size:14px;color:var(--gray-700);margin-top:4px">Contact us at <a href="mailto:info@scandic-it.com" style="color:var(--green-dark);font-weight:600">info@scandic-it.com</a> or call <strong>+45 70 20 70 60</strong></p>
+        <p style="font-size:14px;color:var(--gray-700);margin-top:4px">Contact us at <a href="mailto:sales@scandic-it.com" style="color:var(--green-dark);font-weight:600">sales@scandic-it.com</a> or call <strong>+45 71 74 78 30</strong></p>
       </div>
     </div>
 
@@ -472,11 +472,19 @@ async function sha256(str) {
   return[h0,h1,h2,h3,h4,h5,h6,h7].map(v=>(v>>>0).toString(16).padStart(8,'0')).join('');
 }
 
+// Multi-user credentials: password → { name, role }
+const USERS = {
+  'scandic2026':    { name: 'Scandic IT',   role: 'admin' },
+  'gladteknik2026': { name: 'GladTeknik',   role: 'customer' }
+};
+
 async function handleLogin(e) {
   e.preventDefault();
   const pw = document.getElementById('login-password').value;
-  if (pw === 'scandic2026') {
+  const user = USERS[pw];
+  if (user) {
     sessionStorage.setItem('scandic_auth','1');
+    sessionStorage.setItem('scandic_user', JSON.stringify(user));
     showApp();
   } else {
     document.getElementById('login-error').style.display = 'block';
@@ -488,6 +496,7 @@ async function handleLogin(e) {
 
 function logout() {
   sessionStorage.removeItem('scandic_auth');
+  sessionStorage.removeItem('scandic_user');
   document.getElementById('app').style.display = 'none';
   document.getElementById('login-screen').style.display = 'flex';
   document.getElementById('login-password').value = '';
@@ -497,6 +506,14 @@ function logout() {
 function showApp() {
   document.getElementById('login-screen').style.display = 'none';
   document.getElementById('app').style.display = 'block';
+  // Show logged-in user name next to logout button
+  try {
+    const user = JSON.parse(sessionStorage.getItem('scandic_user'));
+    if (user && user.name) {
+      const logoutBtn = document.querySelector('.logout-btn');
+      if (logoutBtn) logoutBtn.textContent = user.name + ' — Log out';
+    }
+  } catch(e) {}
   initApp();
 }
 
