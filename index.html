@@ -317,16 +317,20 @@ const MODELS = [
   { model:'3430', cpu:'12th Intel (Alder Lake)', year:2022, formFactor:'14"', series:'3000' }
 ];
 
-const MODEL_NAMES = ['5410','5420','5430','5440','5450','3420','3430'];
+const MODEL_NAMES = ['5400','5410','5420','5430','5440','5450','5520','3420','3430'];
 
 const SYSTEM_BOARDS = [
+  { model:'5400', cpu:'i7-8665U', cpuDetail:'4C/8T, 4.8GHz turbo', pn:'52T0R / 6RVRC', boardId:'LA-G891P / LA-G892P', notes:'Integrated Intel UHD 620. Multiple board variants (CNJCN for discrete AMD).' },
+  { model:'5400', cpu:'i5-8365U', cpuDetail:'4C/8T, 4.1GHz turbo', pn:'3WM4C / 5T75M', boardId:'LA-G891P', notes:'Integrated Intel UHD 620. Dell official PN 3WM4C.' },
   { model:'5410', cpu:'i7-10610U', cpuDetail:'4C/8T, 4.9GHz turbo', pn:'67VJ9 / 33T9K', boardId:'LA-J372P', notes:'Integrated Intel graphics' },
   { model:'5420', cpu:'i7-1185G7', cpuDetail:'4C/8T, 4.8GHz turbo', pn:'772C9 / 825VJ', boardId:'LA-K491P (GDF40)', notes:'' },
   { model:'5430', cpu:'i7-1255U', cpuDetail:'2P+8E/12T, 4.7GHz turbo', pn:'3G0RF', boardId:'LA-L591P', notes:'vPro Essentials' },
   { model:'5430', cpu:'i7-1265U', cpuDetail:'2P+8E/12T, 4.8GHz turbo', pn:'4X33N', boardId:'LA-L591P', notes:'vPro' },
   { model:'5440', cpu:'i7-1365U', cpuDetail:'2P+8E/12T', pn:'TKYC0', boardId:'LA-M401P (IDB40)', notes:'vPro' },
   { model:'3420', cpu:'i5-1145G7', cpuDetail:'4C/8T, 4.4GHz turbo', pn:'3GP42 / 3284N', boardId:'Cybory-L15 (213047-1)', notes:'Integrated Intel graphics' },
-  { model:'3430', cpu:'i5-1235U', cpuDetail:'2P+8E/12T, 4.4GHz turbo', pn:'TBD — verify via service tag', boardId:'TBD', notes:'Verify exact PN with Dell' }
+  { model:'3430', cpu:'i5-1235U', cpuDetail:'2P+8E/12T, 4.4GHz turbo', pn:'TBD — verify via service tag', boardId:'TBD', notes:'Verify exact PN with Dell' },
+  { model:'5520', cpu:'i5-1145G7', cpuDetail:'4C/8T, 4.4GHz turbo', pn:'DPC2R', boardId:'19819-1', notes:'Integrated Intel Iris Xe. 15.6" chassis.' },
+  { model:'5520', cpu:'i5-1135G7', cpuDetail:'4C/8T, 4.2GHz turbo', pn:'MFF0T', boardId:'19819-1', notes:'Integrated Intel Iris Xe. 15.6" chassis.' }
 ];
 
 const PARTS = [
@@ -341,81 +345,92 @@ const PARTS = [
   { category:'Battery', description:'4-cell 54Wh (HPNY1)', models:['3420','3430'], pn:'HPNY1', priority:'High', notes:'Long-life, cross-compatible. Priority stock.' },
 
   // Screens
-  { category:'Screen', description:'HD TN (1366x768) 14"', models:['5410','3420','3430'], pn:'Varies', priority:'Low', notes:'Budget option' },
-  { category:'Screen', description:'FHD IPS (1920x1080) non-touch 14" eDP 30-pin', models:['5410','5420','5430','3420','3430'], pn:'Varies', priority:'High', notes:'Covers 5 of 7 models. Stock 2-3.' },
-  { category:'Screen', description:'FHD IPS touch 14"', models:['5410','5420','5430'], pn:'Varies', priority:'Low', notes:'Touch variant' },
-  { category:'Screen', description:'FHD IPS (1920x1080) 14" — new chassis', models:['5440','5450'], pn:'Varies', priority:'Medium', notes:'New chassis, NOT backward compatible' },
+  { category:'Screen', description:'HD TN (1366x768) 14"', models:['5410','3420','3430'], pn:'TBD — verify via service tag', priority:'Low', notes:'Budget option. Multiple panel vendors.' },
+  { category:'Screen', description:'FHD IPS (1920x1080) non-touch 14" eDP 30-pin', models:['5400','5410','5420','5430','3420','3430'], pn:'2C3GP / XYC05 (5400/5410), GC2FN / 9X60C (5420/5430)', priority:'High', notes:'Stock 2-3. Panel with rails varies by model.' },
+  { category:'Screen', description:'FHD IPS touch 14"', models:['5410','5420','5430'], pn:'TBD — verify via service tag', priority:'Low', notes:'Touch variant' },
+  { category:'Screen', description:'FHD IPS (1920x1080) 14" — new chassis', models:['5440','5450'], pn:'9X60C', priority:'Medium', notes:'New chassis, NOT backward compatible. Also fits 5420/5430.' },
 
   // Keyboards
-  { category:'Keyboard', description:'Palmrest + keyboard assembly (5410)', models:['5410'], pn:'Varies', priority:'High', notes:'Unique chassis. #2 failure point.' },
-  { category:'Keyboard', description:'Palmrest + keyboard assembly (5420/5430)', models:['5420','5430'], pn:'Varies', priority:'High', notes:'Cross-compatible. #2 failure point. Stock 2+.' },
-  { category:'Keyboard', description:'Palmrest + keyboard assembly (5440/5450)', models:['5440','5450'], pn:'Varies', priority:'High', notes:'Cross-compatible, new design. #2 failure point. Stock 2+.' },
+  { category:'Keyboard', description:'Palmrest + keyboard assembly (5410)', models:['5410'], pn:'3JGVT (palmrest A19994) / NCC6H (kbd)', priority:'High', notes:'Unique chassis. #2 failure point. Kbd shared with 5400/7400.' },
+  { category:'Keyboard', description:'Palmrest + keyboard assembly (5420/5430)', models:['5420','5430'], pn:'N7N16 / RHGTP (kbd)', priority:'High', notes:'Cross-compatible kbd. Palmrest per-config (SP/DP). #2 failure point. Stock 2+.' },
+  { category:'Keyboard', description:'Palmrest + keyboard assembly (5440/5450)', models:['5440','5450'], pn:'TBD — verify via service tag', priority:'High', notes:'Cross-compatible, new design. #2 failure point. Stock 2+.' },
   { category:'Keyboard', description:'Palmrest + keyboard (1W2NK/N1YGD)', models:['3420','3430'], pn:'1W2NK / N1YGD', priority:'High', notes:'Cross-compatible. #2 failure point. Stock 2+.' },
 
   // SSD
-  { category:'SSD', description:'M.2 2230 PCIe NVMe', models:['5440','5450'], pn:'Varies', priority:'Medium', notes:'Different physical size than 2280' },
-  { category:'SSD', description:'M.2 2280 PCIe NVMe', models:['5410','5420','5430','3420','3430'], pn:'Varies', priority:'High', notes:'Covers 5 of 7 models. Stock 256GB + 512GB.' },
+  { category:'SSD', description:'M.2 2230 PCIe NVMe', models:['5440','5450'], pn:'Generic (Samsung PM991a, SK Hynix BC711)', priority:'Medium', notes:'Different physical size than 2280' },
+  { category:'SSD', description:'M.2 2280 PCIe NVMe', models:['5400','5410','5420','5430','5520','3420','3430'], pn:'Generic (Samsung PM981a/PM9A1, SK Hynix, WD)', priority:'High', notes:'Covers most models. Stock 256GB + 512GB.' },
 
   // RAM
-  { category:'RAM', description:'DDR4 SODIMM 3200MHz (2 slots, up to 32GB)', models:['5410','5420','3420','3430'], pn:'Varies', priority:'High', notes:'Stock 8GB + 16GB modules' },
-  { category:'RAM', description:'DDR4 SODIMM 3200MHz (1 slot + soldered, up to 32GB)', models:['5430'], pn:'Varies', priority:'Medium', notes:'1 slot upgradeable, 1 soldered' },
-  { category:'RAM', description:'DDR5 SODIMM 4800/5200MHz (1 slot + soldered, up to 32GB)', models:['5440'], pn:'Varies', priority:'Medium', notes:'DDR5 — not compatible with DDR4 models' },
+  { category:'RAM', description:'DDR4 SODIMM 3200MHz (2 slots, up to 32GB)', models:['5400','5410','5420','5520','3420','3430'], pn:'Generic DDR4 SODIMM', priority:'High', notes:'Stock 8GB + 16GB modules. 5400 uses DDR4 2666MHz.' },
+  { category:'RAM', description:'DDR4 SODIMM 3200MHz (1 slot + soldered, up to 32GB)', models:['5430'], pn:'Generic DDR4 SODIMM', priority:'Medium', notes:'1 slot upgradeable, 1 soldered' },
+  { category:'RAM', description:'DDR5 SODIMM 4800/5200MHz (1 slot + soldered, up to 32GB)', models:['5440'], pn:'Generic DDR5 SODIMM', priority:'Medium', notes:'DDR5 — not compatible with DDR4 models' },
   { category:'RAM', description:'LPDDR5x (soldered, up to 32GB)', models:['5450'], pn:'N/A', priority:'Low', notes:'NOT upgradeable. No RAM slots.' },
 
   // Power Adapters
-  { category:'Power Adapter', description:'USB-C 65W charger', models:['5410','5420','5430','5440','5450','3420','3430'], pn:'Varies', priority:'High', notes:'Universal across ALL 7 models. Stock 3+.' },
-  { category:'Power Adapter', description:'USB-C 90W charger', models:['5440','5450'], pn:'Varies', priority:'Low', notes:'Optional for performance' },
-  { category:'Power Adapter', description:'Barrel 65W (4.5mm) charger', models:['3420','3430'], pn:'Varies', priority:'Low', notes:'Alternative port option' },
+  { category:'Power Adapter', description:'USB-C 65W charger', models:['5400','5410','5420','5430','5440','5450','5520','3420','3430'], pn:'JNKWD / 2YK0F / M1WCF (HA65NM190)', priority:'High', notes:'Universal across ALL models. Stock 3+.' },
+  { category:'Power Adapter', description:'USB-C 90W charger', models:['5440','5450'], pn:'TDK33 / 0TDK33', priority:'Low', notes:'Optional for performance' },
+  { category:'Power Adapter', description:'Barrel 65W (4.5mm) charger', models:['3420','3430'], pn:'6TFFF / HA65NS5-00', priority:'Low', notes:'Alternative port option' },
 
   // Fans/Heatsink
-  { category:'Fan / Heatsink', description:'CPU heatsink + fan assembly (5410)', models:['5410'], pn:'Varies', priority:'Medium', notes:'Unique to 5410' },
-  { category:'Fan / Heatsink', description:'CPU heatsink + fan assembly (5420/5430)', models:['5420','5430'], pn:'Varies', priority:'Medium', notes:'Cross-compatible' },
-  { category:'Fan / Heatsink', description:'CPU heatsink + fan assembly (5440/5450)', models:['5440','5450'], pn:'Varies', priority:'Medium', notes:'Likely cross-compatible (new chassis)' },
-  { category:'Fan / Heatsink', description:'CPU heatsink + fan assembly (3420/3430)', models:['3420','3430'], pn:'Varies', priority:'Medium', notes:'Cross-compatible' },
+  { category:'Fan / Heatsink', description:'CPU heatsink + fan assembly (5410)', models:['5410'], pn:'29MKF (heatsink) / HHKD2 (fan)', priority:'Medium', notes:'Unique to 5410. UMA/integrated version.' },
+  { category:'Fan / Heatsink', description:'CPU heatsink + fan assembly (5420/5430)', models:['5420','5430'], pn:'HX40M (fan+heatsink, UMA)', priority:'Medium', notes:'Cross-compatible. Integrated graphics version.' },
+  { category:'Fan / Heatsink', description:'CPU heatsink + fan assembly (5440/5450)', models:['5440','5450'], pn:'KF74T (fan)', priority:'Medium', notes:'Likely cross-compatible (new chassis). Fan PN verified.' },
+  { category:'Fan / Heatsink', description:'CPU heatsink + fan assembly (3420/3430)', models:['3420','3430'], pn:'YD29T (fan) / 281DX (heatsink)', priority:'Medium', notes:'Cross-compatible. Also fits 3520.' },
 
   // WLAN
-  { category:'WLAN', description:'Intel Wi-Fi 6 AX201 (M.2 2230)', models:['5410','5420','3420','3430'], pn:'AX201', priority:'Medium', notes:'Same M.2 2230 slot' },
+  { category:'WLAN', description:'Intel Wi-Fi 6 AX201 (M.2 2230)', models:['5400','5410','5420','5520','3420','3430'], pn:'AX201', priority:'Medium', notes:'Same M.2 2230 slot. 5400 may have AC 9560.' },
   { category:'WLAN', description:'Intel Wi-Fi 6E AX211 (M.2 2230)', models:['5430','5440'], pn:'AX211', priority:'Medium', notes:'Same M.2 2230 slot' },
   { category:'WLAN', description:'Intel Wi-Fi 7 BE200 (M.2 2230)', models:['5450'], pn:'BE200', priority:'Low', notes:'Wi-Fi 7' },
 
   // Speakers
-  { category:'Speakers', description:'Speaker set (5410)', models:['5410'], pn:'Varies', priority:'Low', notes:'Unique to 5410' },
-  { category:'Speakers', description:'Speaker set (5420/5430)', models:['5420','5430'], pn:'Varies', priority:'Low', notes:'Cross-compatible' },
-  { category:'Speakers', description:'Speaker set (5440/5450)', models:['5440','5450'], pn:'Varies', priority:'Low', notes:'Cross-compatible' },
-  { category:'Speakers', description:'Speaker set (3420/3430)', models:['3420','3430'], pn:'Varies', priority:'Low', notes:'Cross-compatible' },
+  { category:'Speakers', description:'Speaker set (5410)', models:['5410'], pn:'TBD — verify via service tag', priority:'Low', notes:'Unique to 5410' },
+  { category:'Speakers', description:'Speaker set (5420/5430)', models:['5420','5430'], pn:'TBD — verify via service tag', priority:'Low', notes:'Cross-compatible' },
+  { category:'Speakers', description:'Speaker set (5440/5450)', models:['5440','5450'], pn:'TBD — verify via service tag', priority:'Low', notes:'Cross-compatible' },
+  { category:'Speakers', description:'Speaker set (3420/3430)', models:['3420','3430'], pn:'TBD — verify via service tag', priority:'Low', notes:'Cross-compatible' },
 
   // Hinges
-  { category:'Hinges', description:'Hinge set L+R (5410)', models:['5410'], pn:'Varies', priority:'High', notes:'#3 failure point. Unique to 5410.' },
-  { category:'Hinges', description:'Hinge set L+R (5420/5430)', models:['5420','5430'], pn:'Varies', priority:'High', notes:'#3 failure point. Cross-compatible. Stock 2 sets.' },
-  { category:'Hinges', description:'Hinge set L+R (5440/5450)', models:['5440','5450'], pn:'Varies', priority:'High', notes:'#3 failure point. New chassis design. Stock 2 sets.' },
-  { category:'Hinges', description:'Hinge set L+R (3420/3430)', models:['3420','3430'], pn:'Varies', priority:'High', notes:'#3 failure point. Cross-compatible. Stock 2 sets.' },
-  { category:'Hinges', description:'Display assembly (complete)', models:['5410','5420','5430','5440','5450','3420','3430'], pn:'Per model', priority:'Low', notes:'Includes bezel, panel, hinges, cables. Per-model specific.' },
+  { category:'Hinges', description:'Hinge set L+R (5410)', models:['5410'], pn:'33YJW (L) / HTF3C (R)', priority:'High', notes:'#3 failure point. Also fits 5400/5401/5411.' },
+  { category:'Hinges', description:'Hinge set L+R (5420/5430)', models:['5420','5430'], pn:'0FJ0X (L) / MX89N (R)', priority:'High', notes:'#3 failure point. Cross-compatible. Also fits 5431. Stock 2 sets.' },
+  { category:'Hinges', description:'Hinge set L+R (5440/5450)', models:['5440','5450'], pn:'TBD — verify via service tag', priority:'High', notes:'#3 failure point. New chassis design. Stock 2 sets.' },
+  { category:'Hinges', description:'Hinge set L+R (3420/3430)', models:['3420','3430'], pn:'V1FF6 (kit)', priority:'High', notes:'#3 failure point. Cross-compatible. Stock 2 sets.' },
+  { category:'Hinges', description:'Display assembly (complete)', models:['5400','5410','5420','5430','5440','5450','5520','3420','3430'], pn:'Per model', priority:'Low', notes:'Includes bezel, panel, hinges, cables. Per-model specific.' },
 
   // Other
-  { category:'Other', description:'DC-in / USB-C port board', models:['5410','5420','5430','5440','5450','3420','3430'], pn:'Per model group', priority:'Medium', notes:'Per model group' },
-  { category:'Other', description:'Touchpad / clickpad', models:['5410','5420','5430','5440','5450','3420','3430'], pn:'Per model group', priority:'Low', notes:'Per model group' },
-  { category:'Other', description:'Webcam module', models:['5410','5420','5430','5440','5450','3420','3430'], pn:'Varies', priority:'Low', notes:'Mostly universal within generation' },
-  { category:'Other', description:'CMOS battery (CR2032)', models:['5410','5420','5430','5440','5450','3420','3430'], pn:'CR2032', priority:'High', notes:'Cheap, universal. Stock 10+.' },
-  { category:'Other', description:'Bottom access panel/cover', models:['5410','5420','5430','5440','5450','3420','3430'], pn:'Per model', priority:'Low', notes:'Cosmetic' },
-  { category:'Other', description:'Hinge caps / bezel', models:['5410','5420','5430','5440','5450','3420','3430'], pn:'Per model group', priority:'Medium', notes:'Cosmetic repair' },
+  { category:'Other', description:'DC-in / USB-C port board', models:['5400','5410','5420','5430','5440','5450','5520','3420','3430'], pn:'Per model group', priority:'Medium', notes:'Per model group' },
+  { category:'Other', description:'Touchpad / clickpad', models:['5400','5410','5420','5430','5440','5450','5520','3420','3430'], pn:'Per model group', priority:'Low', notes:'Per model group' },
+  { category:'Other', description:'Webcam module', models:['5400','5410','5420','5430','5440','5450','5520','3420','3430'], pn:'TBD — verify via service tag', priority:'Low', notes:'Mostly universal within generation' },
+  { category:'Other', description:'CMOS battery (CR2032)', models:['5400','5410','5420','5430','5440','5450','5520','3420','3430'], pn:'CR2032', priority:'High', notes:'Cheap, universal. Stock 10+.' },
+  { category:'Other', description:'Bottom access panel/cover', models:['5400','5410','5420','5430','5440','5450','5520','3420','3430'], pn:'Per model', priority:'Low', notes:'Cosmetic' },
+  { category:'Other', description:'Hinge caps / bezel', models:['5400','5410','5420','5430','5440','5450','5520','3420','3430'], pn:'Per model group', priority:'Medium', notes:'Cosmetic repair' },
 
   // System Boards
-  { category:'System Board', description:'Motherboard + i7-8665U (4C/8T, 4.8GHz)', models:['5400'], pn:'52T0R / 6RVRC / 3TWCF', priority:'Low', notes:'CPU soldered. Multiple board variants.' },
-  { category:'System Board', description:'Motherboard + i5-8365U (4C/8T, 3.6GHz)', models:['5400'], pn:'Varies', priority:'Low', notes:'CPU soldered.' },
+  { category:'System Board', description:'Motherboard + i7-8665U (4C/8T, 4.8GHz)', models:['5400'], pn:'52T0R / 6RVRC / CNJCN', priority:'Low', notes:'CPU soldered. CNJCN for discrete AMD. Multiple board variants.' },
+  { category:'System Board', description:'Motherboard + i5-8365U (4C/8T, 4.1GHz)', models:['5400'], pn:'3WM4C / 5T75M / CJH60', priority:'Low', notes:'CPU soldered. Integrated Intel UHD 620.' },
   { category:'Battery', description:'4-cell 68Wh (4GVMP/1V1XF)', models:['5400'], pn:'4GVMP / 1V1XF', priority:'High', notes:'Cross-compatible with 5500. Priority stock.' },
   { category:'Battery', description:'3-cell 51Wh (R8D7N)', models:['5400'], pn:'R8D7N', priority:'Medium', notes:'Standard option.' },
-  { category:'Keyboard', description:'Palmrest + keyboard assembly (5400)', models:['5400'], pn:'Varies', priority:'High', notes:'Shared chassis with 5401.' },
-  { category:'Screen', description:'FHD IPS (1920x1080) non-touch 14"', models:['5400'], pn:'Varies', priority:'High', notes:'eDP 30-pin. Same panel as 5410.' },
-  { category:'Fan / Heatsink', description:'CPU heatsink + fan assembly (5400)', models:['5400'], pn:'Varies', priority:'Medium', notes:'Unique to 5400/5401 chassis.' },
-  { category:'Hinges', description:'Hinge set L+R (5400)', models:['5400'], pn:'Varies', priority:'High', notes:'Common failure point.' },
-  { category:'Speakers', description:'Speaker set (5400)', models:['5400'], pn:'Varies', priority:'Low', notes:'' },
+  { category:'Keyboard', description:'Palmrest + keyboard assembly (5400)', models:['5400'], pn:'R3JFT / A1899F (palmrest) / NCC6H (kbd backlit)', priority:'High', notes:'Shared chassis with 5401. Kbd also fits 5410/7400.' },
+  { category:'Screen', description:'FHD IPS (1920x1080) non-touch 14"', models:['5400'], pn:'2C3GP / XYC05', priority:'High', notes:'eDP 30-pin. Same panel as 5410.' },
+  { category:'Fan / Heatsink', description:'CPU heatsink + fan assembly (5400)', models:['5400'], pn:'XYG4C (heatsink) / MXH2W (fan+heatsink)', priority:'Medium', notes:'Unique to 5400/5401 chassis. UMA/integrated version.' },
+  { category:'Hinges', description:'Hinge set L+R (5400)', models:['5400'], pn:'33YJW (L) / HTF3C (R)', priority:'High', notes:'Common failure point. Same as 5410/5411.' },
+  { category:'Speakers', description:'Speaker set (5400)', models:['5400'], pn:'TBD — verify via service tag', priority:'Low', notes:'' },
   { category:'System Board', description:'Motherboard + i7-10610U (4C/8T, 4.9GHz)', models:['5410'], pn:'67VJ9 / 33T9K', priority:'Low', notes:'LA-J372P. CPU soldered.' },
   { category:'System Board', description:'Motherboard + i7-1185G7 (4C/8T, 4.8GHz)', models:['5420'], pn:'772C9 / 825VJ', priority:'Low', notes:'LA-K491P. CPU soldered.' },
   { category:'System Board', description:'Motherboard + i7-1255U (2P+8E/12T, 4.7GHz)', models:['5430'], pn:'3G0RF', priority:'Low', notes:'LA-L591P. vPro Essentials. CPU soldered. ~44 available.' },
   { category:'System Board', description:'Motherboard + i7-1265U (2P+8E/12T, 4.8GHz)', models:['5430'], pn:'4X33N', priority:'Low', notes:'LA-L591P. vPro. CPU soldered. ~44 available.' },
   { category:'System Board', description:'Motherboard + i7-1365U (2P+8E/12T)', models:['5440'], pn:'TKYC0', priority:'Low', notes:'LA-M401P. vPro. CPU soldered.' },
   { category:'System Board', description:'Motherboard + i5-1145G7 (4C/8T, 4.4GHz)', models:['3420'], pn:'3GP42 / 3284N', priority:'Low', notes:'Cybory-L15. CPU soldered.' },
-  { category:'System Board', description:'Motherboard + i5-1235U (2P+8E/12T, 4.4GHz)', models:['3430'], pn:'TBD', priority:'Low', notes:'Verify PN with Dell. CPU soldered.' }
+  { category:'System Board', description:'Motherboard + i5-1235U (2P+8E/12T, 4.4GHz)', models:['3430'], pn:'TBD', priority:'Low', notes:'Verify PN with Dell. CPU soldered.' },
+
+  // Latitude 5520 parts (3 units: i5-1145G7, i5-1135G7)
+  { category:'System Board', description:'Motherboard + i5-1145G7 (4C/8T, 4.4GHz)', models:['5520'], pn:'DPC2R', priority:'Low', notes:'15.6" chassis. Integrated Iris Xe. CPU soldered.' },
+  { category:'System Board', description:'Motherboard + i5-1135G7 (4C/8T, 4.2GHz)', models:['5520'], pn:'MFF0T', priority:'Low', notes:'15.6" chassis. Integrated Iris Xe. CPU soldered.' },
+  { category:'Battery', description:'3-cell 42Wh (WK3F1)', models:['5520'], pn:'WK3F1 / RF9H3', priority:'Medium', notes:'Standard option. Same as 5420.' },
+  { category:'Battery', description:'4-cell 63Wh (M69D0)', models:['5520'], pn:'M69D0 / 3PCVM', priority:'Medium', notes:'Long-life option.' },
+  { category:'Screen', description:'FHD IPS (1920x1080) non-touch 15.6"', models:['5520'], pn:'5NG4M', priority:'High', notes:'eDP 30-pin. 15.6" panel.' },
+  { category:'Keyboard', description:'Keyboard (5520)', models:['5520'], pn:'N7N16 / RHGTP', priority:'High', notes:'Same keyboard as 5530/5540. Backlit.' },
+  { category:'Fan / Heatsink', description:'CPU heatsink + fan assembly (5520)', models:['5520'], pn:'DXJNV (fan) / 6274V (heatsink)', priority:'Medium', notes:'UMA/integrated version. Also fits Precision 3560.' },
+  { category:'Hinges', description:'Hinge set L+R (5520)', models:['5520'], pn:'TBD — verify via service tag', priority:'High', notes:'15.6" chassis. Common failure point.' },
+  { category:'Speakers', description:'Speaker set (5520)', models:['5520'], pn:'TBD — verify via service tag', priority:'Low', notes:'' }
 ];
 
 // === FULL INVENTORY DATA (from Excel) ===
