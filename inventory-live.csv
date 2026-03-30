@@ -21,18 +21,17 @@ Normal W&T
 1,Laptop,Apple,"Macbook Pro 15"" (A1398/2015)",C02V10P9G8WL,"2,2 GHz i7",16GB DDR4,256GB,C,Marks on Screen,,No,,FALSE,French,0.59,Below,July
 1,Laptop,Apple,"Macbook Pro 15"" A1990/2019)",C02Z91JNLVDT,,,,B,"Normal W&T, Small Marks on Screen,",,Yes,Expedia,FALSE,Belgian,N/A,N/A,April
 1,Laptop,Apple,"Macbook Pro 15"" A1990/2019)",C02X602SJG5L,"2,2 GHz i7",16GB DDR4,256GB,D,"heavy tear (slightly bent corner on screen, small marks screen, worn keys",,No,,FALSE,English US,0.59,Below,June
-1,Laptop,Apple,"Macbook Pro 15"" A1990/2019)",C02X6227JGH7,"2,2 GHz i7",16GB DDR4,256GB,B,Normal W&T,,No,,FALSE,Belgian,70.00%,Below,June
-1,Laptop,Apple,"Macbook Pro 15"" A1990/2019)",C02Z91JQLVDT,"2,6 GHz i7",16GB DDR4,256GB,C,"Marks on screen, Defective Key (Tab key, Cannot Repair? - MORTEN)",,No,,FALSE,Belgian,0.78,Below,May
+1,Laptop,Apple,"Macbook Pro 15"" A1990/2019)",C02Z91JQLVDT,"2,6 GHz i7",16GB DDR4,256GB,C,"Marks on screen, Defective Key (Tab key, Cannot Repair? - MORTEN)",,No,,FALSE,Belgian,78.00%,Below,May
 1,Laptop,Apple,"Macbook Pro 16"" (A2141/2019)",C02CH0H9MD6V,"2,6 GHz i7",32GB DDR4,256GB,D,"Normal W&T, Battery dead, Power button defective",,Yes,GBT,FALSE,English UK,N/A,N/A,November
-1,Laptop,Dell,Precision 5570,G6NVHR3,i7-12800H,16 GB DDR5,512 GB,C,"Normal W&T, small scratches (Top Cover)",,Yes,GBT,FALSE,French,46.00%,Below,
+1,Laptop,Dell,Precision 5570,G6NVHR3,i7-12800H,16 GB DDR5,512 GB,C,"Normal W&T, small scratches (Top Cover)",,Yes,GBT,FALSE,French,0.46,Below,
 1,Laptop,HP,ProBook 430 G6,5CD851652Q,i5-8265U,16 GB DDR4,256 GB,B,"Normal W&T, Small Marks on Screen",Replaced CMOS,No,,FALSE,Scandinavian,100.00%,Above,
-1,Laptop,HP,ProBook 450 G7,5CD112695H,i5-10210,8 GB DDR4,256 GB,C,"Normal W&T, Marked Screen, Defective CMOS Battery",,No,,FALSE,Scandinavian,0.94,Above,Vingaardshus
-1,Laptop,HP,ProBook 450 G7,5CD112696K,i5-10210,8 GB DDR4,256 GB,B,"Normal W&T, Defective CMOS Battery",,MAR,,TRUE,Scandinavian,94.00%,Above,Vingaardshus
+1,Laptop,HP,ProBook 450 G7,5CD112695H,i5-10210,8 GB DDR4,256 GB,C,"Normal W&T, Marked Screen, Defective CMOS Battery",,No,,FALSE,Scandinavian,94.00%,Above,Vingaardshus
+1,Laptop,HP,ProBook 450 G7,5CD112696K,i5-10210,8 GB DDR4,256 GB,B,"Normal W&T, Defective CMOS Battery",,MAR,,TRUE,Scandinavian,0.94,Above,Vingaardshus
 1,Laptop,Microsoft,Surface Pro 7+,22443613453,i7-1165G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Back Cover), Silver",,,,FALSE,,N/A,N/A,August
-1,Laptop,Microsoft,Surface Pro 9,0F01V5323103BF,i7-1265U,16 GB DDR5,256 GB NVMe,B,"Normal W&T, Dark Gray (Graphite)",,,,FALSE,UK,96.00%,Above,June
+1,Laptop,Microsoft,Surface Pro 9,0F01V5323103BF,i7-1265U,16 GB DDR5,256 GB NVMe,B,"Normal W&T, Dark Gray (Graphite)",,,,FALSE,UK,0.96,Above,June
 1,Laptop,Lenovo,ThinkPad X1 Yoga G4,PF20Z5Y7,i7-8665U,16 GB DDR3,256 GB NVMe,C,"Normal W&T, Marks on Screen, Defective CMOS Battery",,No,,FALSE,British,80.00%,Above,May
-1,Laptop,Lenovo,ThinkPad X1 Yoga G4,PF25K4KH,i7-8665U,16 GB LPDDR3,256 GB,C,"Normal W&T, Heavy Tear (Top Cover) Marks on Screen, Defective CMOS Battery",,MAR,,FALSE,British,0.85,Above,
-1,Laptop,Lenovo,ThinkPad X1 Yoga G4,PF20WX9H,i7-8665U,16 GB LPDDR3,256 GB,C,"Normal W&T, Marks on Screen, Loose Key (F2), (Not good enough  for Refurbed), Defective CMOS Battery",,MAR,,FALSE,Nordic Sticky,83.00%,Above,
+1,Laptop,Lenovo,ThinkPad X1 Yoga G4,PF25K4KH,i7-8665U,16 GB LPDDR3,256 GB,C,"Normal W&T, Heavy Tear (Top Cover) Marks on Screen, Defective CMOS Battery",,MAR,,FALSE,British,85.00%,Above,
+1,Laptop,Lenovo,ThinkPad X1 Yoga G4,PF20WX9H,i7-8665U,16 GB LPDDR3,256 GB,C,"Normal W&T, Marks on Screen, Loose Key (F2), (Not good enough  for Refurbed), Defective CMOS Battery",,MAR,,FALSE,Nordic Sticky,0.83,Above,
 1,Laptop,Dell,Latitude 3420,44X8HS3,i5-1145G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,FALSE,Scandinavian,93.00%,Above,
 1,Laptop,Dell,Latitude 3430,HMWVGS3,i5-1235U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover), Cracked Palmrest, Broken Screw (Back Cover can't open)",,Yes,GBT,FALSE,English (UK),82.00%,Above,
 1,Laptop,Apple,"Macbook Pro 15"" (A1707/2017)",C02WN0G2HTDF,i7-7920HQ,16 GB DDR3,1000 GB NVMe,C,"Normal W&T, Marks on Screen, Touch Bar Defective (Right Side), Heavy Tear (Palm Rest)",,No,,FALSE,Spanish,65.00%,Below,Maj 25
@@ -41,23 +40,23 @@ Normal W&T
 1,Laptop,Dell,Latitude 5410,6J4M593,i7-10610U,16 GB DDR4,256 GB NVMe,B,Normal W&T,Sticky Keys,No,,TRUE,Nordic,44.00%,Below,Juni 25
 1,Laptop,Dell,Latitude 5440,JR03SV3,i7-1365U,16 GB DDR4,256 GB,D,"Normal W&T, Heavy Tear (Top Cover), Small Mark on Screen(Center left), Scratches Palm Rest(Right edge)",,Yes,GBT,FALSE,Swedish/Finnish,98.00%,Above,August '24
 1,Laptop,Dell,Latitude 3430,H6G4GS3,i5-1235U,16 GB DDR4,256 GB,D,"Normal W&T, Heavy Tear (Top&Bottom Cover), Broken Screen, Cracked Top Cover, Worn Key (A)",,Yes,GBT,FALSE,English UK,85.00%,Above,Juli '24
-1,Laptop,Dell,Latitude 5420,2L9BQN3,i7-1185G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,FALSE,Nordic,83.00%,Above,June '25
+1,Laptop,Dell,Latitude 5420,2L9BQN3,i7-1185G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,TRUE,Nordic,83.00%,Above,June '25
 1,Laptop,Dell,Latitude 5440,4K69D44,i7-1365U,16 GB DDR4,256 GB NVMe,D,"Normal W&T, Heavy Tear (Top Cover), Drop Damage, Defective Microphone",,Yes,GBT,FALSE,French (Europe),92.00%,Above,June '25
 1,Laptop,Dell,Latitude 5440,9NSHY04,i7-1365U,16 GB DDR4,256 GB NVMe,D,"N W&T, Heavy Tear (Top & Bottom Cover), Drop Damage, Marks on Screen",,Yes,GBT,FALSE,English (UK),78.00%,Below,June '25
 1,Laptop,Dell,Latitude 5440,BYQDFY3,i7-1365U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover)",,Yes,GBT,FALSE,English (International),100.00%,Above,June '25
 1,Laptop,Dell,Latitude 5430,BZLSHR3,i7-1255U,16 GB DDR4,512 GB NVMe,B,Normal W&T,,MAR,,TRUE,DK,92.00%,Above,June '25
 1,Laptop,Microsoft,Surface Pro 6,5293753,i5-8350U,8 GB LPDDR3,256 GB,C,"Normal W&T, Heavy Tear (Top Cover), Black",,No,,FALSE,Nordic Sticky,100.00%,Above,January '24
 1,Laptop,Dell,Latitude 5400,44NZ733,i7-8665U,16 GB DDR4,256 GB,C,"Normal W&T, Whitespots on Screen",,No,,FALSE,DK,N/A,N/A,November
-1,Laptop,Dell,Latitude 5410,D0NM593,i7-10610U,16 GB DDR4,256 GB NVMe,B,Normal W&T,Sticky Keys,No,,TRUE,Nordic,100.00%,Above,July '25
+1,Laptop,Dell,Latitude 5410,D0NM593,i7-10610U,16 GB DDR4,256 GB NVMe,B,Normal W&T,Sticky Keys,No,,TRUE,Nordic,1,Above,July '25
 1,Laptop,Lenovo,ThinkPad X1 Yoga 3rd,R90P28P2,i5-8350U,16 GB DDR3,256 GB NVMe,C,"Normal W&T, Marks on Screen",,No,,FALSE,French,76.00%,Below,July '25
 1,Laptop,HP,EliteBook 745 G2,5CG5341J6R,"AMD Corporation; Family: A-Series; Version: AMD A6 PRO-7050B R4, 5 Compute Cores 2C+3G; Frequency: 2200 MHz; Cores: 2",4 GB DDR3,16 GB SSD,C,Normal W&T.missing trackpoint,,No,,FALSE,Norwegian,,,July '25
 1,Laptop,Apple,"Macbook Pro 13"" (A1989/2019)",C02Y10YEJHCF,,,,C,"Normal W&T, Marks on Screen",,No,,FALSE,,,,July '25
 1,Laptop,Lenovo,ThinkPad T14s Gen 2,PC24MHHE,i5-1135G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Marks on Screen, Whitespots on Screen, Broken Mouse 1, Battery Not Charging. Kan ikke sælges på Refurbed",,No,,FALSE,Nordic,0,Below,Elrecycling
-1,Laptop,Dell,Latitude 3430,7PWVGS3,i5-1235U,16 GB DDR4,256 GB NVMe,B,"Normal W&T, Small Scratches (Top Cover)",,Yes,GBT,FALSE,English (UK),90.00%,Above,July '25
+1,Laptop,Dell,Latitude 3430,7PWVGS3,i5-1235U,16 GB DDR4,256 GB NVMe,B,"Normal W&T, Small Scratches (Top Cover)",,Yes,GBT,FALSE,English (UK),0.9,Above,July '25
 1,Laptop,Dell,Latitude 3420,9K4WGS3,i5-1145G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,FALSE,Scandinavian,84.00%,Above,July '25
-1,Laptop,Dell,Latitude 3430,GGYXGS3,i5-1235U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Scratches Top Cover",,Yes,GBT,FALSE,Nordic,0.99,Above,July '25
+1,Laptop,Dell,Latitude 3430,GGYXGS3,i5-1235U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Scratches Top Cover",,Yes,GBT,FALSE,Nordic,99.00%,Above,July '25
 1,Laptop,Dell,Latitude 5430,DJK1WV3,i7-1255U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear(Top Cover)",,Yes,GBT,TRUE,Nordic,1,Above,August '25
-1,Laptop,Dell,Latitude 5420,J59L4J3,i7-1185G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,FALSE,UK,100.00%,Above,August '25
+1,Laptop,Dell,Latitude 5420,J59L4J3,i7-1185G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,FALSE,UK,1,Above,August '25
 1,Laptop,Dell,Latitude 5420,80R46J3,i7-1185G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,FALSE,EN US,81.00%,Above,August '25
 1,Laptop,Dell,Latitude 5420,9GR67M3,i7-1185G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,FALSE,EN,65.00%,Below,August '25
 1,Laptop,Dell,Latitude 5410,JNYL593,i7-10610U,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,FALSE,French,82.00%,Above,August '25
@@ -102,13 +101,13 @@ Normal W&T
 1,Docking Station,Dell,WD22TB4,5JV2NR3,N/A,N/A,N/A,D,"Normal W&T, Heavy tear (Top)",,,,FALSE,N/A,N/A,N/A,HUC
 1,Laptop,Lenovo,THINKPAD L15 G1,PF208VKP,RYZEN 5 PRO 4650U,8 GB,256 GB,C,"Normal W&T, Scratches (Top Cover), Slightly Worn Key Board, Removed defective CMOS Battery",,No,,FALSE,DK,0.76,Below,AK7-IT
 1,Laptop,Dell,Latitude 5440,4PM79Y3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover), Cracked Palmrest (R)",,Yes,,FALSE,Czech/Slovak,0.81,Above,August '25
-1,Laptop,Dell,Latitude 5420,F5KQ2M3,i7-1185G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,No,,FALSE,Nordic (MUI),1,Above,September '25
+1,Laptop,Dell,Latitude 5420,F5KQ2M3,i7-1185G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,No,,TRUE,Nordic (MUI),1,Above,September '25
 1,Laptop,Dell,Latitude 5420,F4YYPN3,i7-1185G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,No,,FALSE,English (UK),0.86,Above,September '25
 1,Laptop,Dell,Latitude 5420,DVY13M3,i7-1185G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,No,,FALSE,English (UK),1,Above,September '25
 1,Laptop,Dell,Latitude 5420,1LJMMN3,i7-1185G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,No,,FALSE,Spanish,0.83,Above,September '25
 1,Laptop,Dell,Precision 5550,21V34F3,i7-10750H,64 GB DDR4,1024 GB NVMe,B,Normal W&T,,No,,TRUE,English UK,1,Above,September '25
 1,Laptop,Dell,Latitude 5400,JVG3633,i7-8665U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top cover, palmrest) Worn power button. Whitespots on Screen, No Speakers",,No,,FALSE,DK,0.75,Below,September '25
-1,Laptop,Dell,Latitude 5400,11TH633,i7-8665U,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,FALSE,English (US),0.79,Below,September '25
+1,Laptop,Dell,Latitude 5400,11TH633,i7-8665U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top cover)",,Yes,GBT,TRUE,English (US),0.71,Below,September '25
 1,Docking Station,HP,USB-C Dock G5,5CG307SCS4,,,,B,Normal W&T,,,,FALSE,,,,El-Recycling
 1,Docking Station,HP,USB-C Dock G5,5CG024Z6DC,,,,B,Normal W&T,,,,FALSE,,,,El-Recycling
 1,Laptop,Dell,Latitude 5400,1MCC633,i7-8665U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Cracked Cover(Top cover corner), Drive health 50%",,No,,FALSE,UK/Irish,0.65,Below,September '25
@@ -117,21 +116,20 @@ Normal W&T
 1,Docking Station,HP,USB-C/A Universal Dock G2,5CG148WGFM,,,,A,"OK, Incl AC",,,,FALSE,,,,Zones EU Warehouse
 1,Laptop,HP,Elitebook 830 G6,5CG9427F9K,CORE I5-8365U 1.60 GHZ,16 GB DDR4,256 GB,B,Normal W&T,,,,FALSE,Danish,86.00%,Above,El-Recycling
 1,Laptop,HP,Elitebook 845 G8,5CG2185P81,RYZEN 5 PRO 5650U,16 GB DDR4,256 GB,B,"Normal W&T, Small Marks On Screen",,,,FALSE,Danish,98.00%,Above,El-Recycling
-1,Laptop,Lenovo,Thinkpad T14 Gen 1,PF2R7D6Q,RYZEN 3 PRO 4450U,16 GB DDR4,256 GB,B,Normal W&T,,,,FALSE,Danish,1,Above,El-Recycling
+1,Laptop,Lenovo,Thinkpad T14 Gen 1,PF2R7D6Q,RYZEN 3 PRO 4450U,16 GB DDR4,256 GB,B,Normal W&T,,,,FALSE,Danish,100.00%,Above,El-Recycling
 1,Laptop,Lenovo,Thinkpad T14 Gen 2,PF3PH14D,RYZEN 3 PRO 5450U,16 GB DDR4,256 GB,B,Normal W&T,,,,FALSE,Danish,1,Above,El-Recycling
-1,Laptop,Lenovo,Thinkpad T14 Gen 2,PF3PHSXF,RYZEN 3 PRO 5450U,16 GB DDR4,256 GB,B,"Normal W&T, Sticker discolouring (Top)",,,,FALSE,Danish,100.00%,Above,El-Recycling
+1,Laptop,Lenovo,Thinkpad T14 Gen 2,PF3PHSXF,RYZEN 3 PRO 5450U,16 GB DDR4,256 GB,B,"Normal W&T, Sticker discolouring (Top)",,,,FALSE,Danish,1,Above,El-Recycling
 1,Laptop,Lenovo,Thinkpad T14s Gen 3,GM04NX99,12TH GEN CORE I5-1240P,16 GB LPDDR5,256 GB,B,"Normal W&T, Small Marks On Screen",,,,FALSE,Nordic,83.00%,Above,El-Recycling
-1,Laptop,Lenovo,Thinkpad T16 Gen 2,PF4EEAQV,13TH GEN CORE I5-1335U,16 GB DDR5,256 GB,B,"Normal W&T, Small Marks On Screen",,,,FALSE,Nordic,0.88,Above,El-Recycling
+1,Laptop,Lenovo,Thinkpad T16 Gen 2,PF4EEAQV,13TH GEN CORE I5-1335U,16 GB DDR5,256 GB,B,"Normal W&T, Small Marks On Screen",,,,FALSE,Nordic,88.00%,Above,El-Recycling
 1,Laptop,Lenovo,Thinkpad T14 Gen 1,PF2R7L5C,RYZEN 3 PRO 4450U,16 GB DDR4,256 GB,C,"Heavy Tear (Top Cover, Bezel), Marks on Screen",,,,FALSE,Danish,0.8,Above,El-Recycling
 1,Laptop,Lenovo,Thinkpad T14 Gen 1,PF360NV5,RYZEN 3 PRO 4450U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top), Small marks on Screen, Whitespots",,,,FALSE,Danish,0.89,Above,El-Recycling
-1,Laptop,Lenovo,Thinkpad T14 Gen 1,PF2R7XCY,RYZEN 3 PRO 4450U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy tear (top), sticker discouluring (top)",,,,FALSE,Danish,100.00%,Above,El-Recycling
-1,Laptop,Lenovo,Thinkpad T14 Gen 1,PF2R6ZDL,RYZEN 3 PRO 4450U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear, Sticker discolouring(Top)",,,,FALSE,Danish,1,Above,El-Recycling
+1,Laptop,Lenovo,Thinkpad T14 Gen 1,PF2R7XCY,RYZEN 3 PRO 4450U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy tear (top), sticker discouluring (top)",,,,FALSE,Danish,1,Above,El-Recycling
+1,Laptop,Lenovo,Thinkpad T14 Gen 1,PF2R6ZDL,RYZEN 3 PRO 4450U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear, Sticker discolouring(Top)",,,,FALSE,Danish,100.00%,Above,El-Recycling
 1,Laptop,Lenovo,Thinkpad T14 Gen 1,PF2R6ZEY,RYZEN 3 PRO 4450U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear, Sticker discolouring(Top)",,,,FALSE,Danish,1,Above,El-Recycling
 1,Laptop,Lenovo,Thinkpad T14 Gen 1,PF2SB0X1,RYZEN 3 PRO 4450U,16 GB DDR4,256 GB,C,"Normal W&T, Worn Trackpad.",,,,FALSE,Danish,0.84,Above,El-Recycling
-1,Laptop,Lenovo,Thinkpad T14s Gen 1,PF2A5FX4,CORE I5-10210U 1.60 GHZ,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover, Palmrest) Worn Trackpad.",,,,FALSE,Nordic,79.00%,Below,El-Recycling
+1,Laptop,Lenovo,Thinkpad T14s Gen 1,PF2A5FX4,CORE I5-10210U 1.60 GHZ,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover, Palmrest) Worn Trackpad.",,,,FALSE,Nordic,0.79,Below,El-Recycling
 1,Laptop,Lenovo,Thinkpad T14s Gen 4,GM0E5QG6,I5-1345U,16 GB LPDDR5,256 GB,C,"Normal W&T, Heavy Tear (Top cover, Bottom cover) Marks on screen, Missing Rubber Foot",,,,FALSE,Nordic,100.00%,Above,El-Recycling
 1,Laptop,Lenovo,Thinkpad T15 Gen 2,PF2WFVQC,11TH GEN CORE I5-1135G7,16 GB DDR4,256 GB,B,Normal W&T,,,,FALSE,Nordic,85.00%,Above,El-Recycling
-1,Laptop,Lenovo,Thinkpad T495,PF21NHM6,RYZEN 5 PRO 3500U,8 GB DDR4,256 GB,C,"Normal W&T (top cover skin), Marks on Screen, Defective Keyboard (FN key)",,,,FALSE,Danish,86.00%,Above,El-Recycling
 1,Laptop,Lenovo,Thinkpad P15s Gen 1,PF19FDRG,CORE I7-10510U,32 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Bezel), Marks on Screen",,,,FALSE,Nordic,100.00%,Above,El-Recycling
 1,Laptop,Lenovo,Thinkpad T14s Gen 1,PC1M6JSY,CORE I5-10210U 1.60 GHZ,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover, Palm Rest), Marks on Screen",,,,FALSE,Nordic,77.00%,Below,El-Recycling
 1,Laptop,Dell,Latitude 5430,JZR5KR3,i7-1255U,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,FALSE,DK,100.00%,Above,September '25
@@ -159,7 +157,6 @@ Normal W&T
 1,Dock,Lenovo,40AC,ZBK08CN1,,,,B,Normal W&T,,,,FALSE,,,,El-Recycling
 1,Dock,Lenovo,40AC,ZBK08CPS,,,,B,Normal W&T,,,,FALSE,,,,El-Recycling
 1,Dock,Lenovo,40AC,ZBK08CKZ,,,,C,"Normal W&T, Heavy Tear (Top Surface)",,,,FALSE,,,,El-Recycling
-1,Dock,Lenovo,40AC,ZBK08CPL,,,,C,"Normal W&T, Heavy Tear (Top Surface)",,,,FALSE,,,,El-Recycling
 1,Dock,Lenovo,40AC,ZBK08CQC,,,,B,Normal W&T,,,,FALSE,,,,El-Recycling
 1,Dock,Lenovo,40AC,ZBK08CP1,,,,B,Normal W&T,,,,FALSE,,,,El-Recycling
 1,Dock,Lenovo,40AC,ZBK08CS7,,,,B,Normal W&T,,,,FALSE,,,,El-Recycling
@@ -167,7 +164,6 @@ Normal W&T
 1,Laptop,Dell,Latitude 5420,6JQ46J3,i7-1185G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,No,,FALSE,French,1,Above,October '25
 1,Laptop,Dell,Latitude 5420,38V94J3,i7-1185G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,FALSE,English UK,1,Above,October '25
 1,Laptop,Dell,Latitude 7410,DR5D2J3,i7-10610U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Marks on Screen, Worn Keys (A, Arrow Down)",,,,FALSE,English UK,0.53,Below,Kosmos
-1,Laptop,Dell,Precision 5560,G3GF4J3,i7-11850H,32 GB DDR4,1024 GB NVMe,B,Normal W&T (Bemærk; Laptop har Touchscreen),,,,FALSE,English (International),0.49,Below,Kosmos
 1,Laptop,Dell,Precision 5530,H3V87S2,i7-8850H,32 GB DDR4,1024 GB NVMe,C,"Normal W&T, White Spots",,,,FALSE,US (International),0.97,Above,Kosmos
 1,Laptop,Dell,Latitude 5410,8KJK063,i7-10610U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top & Bottom Cover), Marks on Screen, Worn Power Button",,No,,FALSE,German,0.35,Below,October '25
 1,Laptop,Dell,Latitude 5410,2D2GP73,i7-10610U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover Edge)",,No,,FALSE,German,0.46,Below,October '25
@@ -181,9 +177,8 @@ Normal W&T
 1,Laptop,Dell,Latitude 5430,D4LH5X3,i7-1265U,16 GB DDR4,256 GB NVMe,B,"Normal W&T, HDD Health 52%",,Yes,GBT,FALSE,English (International),0.96,Above,October '25
 1,Laptop,Dell,Latitude 5430,67JZSQ3,i7-1255U,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,FALSE,German,0.98,Above,October '25
 1,Laptop,Dell,Latitude 5430,40QVSQ3,i7-1255U,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,FALSE,French,1,Above,October '25
-1,Laptop,Lenovo,ThinkPad X1 Carbon 3rd,R90K2MG8,i5-5300U,8 GB DDR3,256 GB SSD,C,"Normal W&T, Whitespots on Screen, Marks on Screen, Worn Keyboard, Heavy Tear (Top/Bottom Cover), Missing rubber Feet",,,,FALSE,English (UK),36.00%,Below,October '25
-1,Laptop,Dell,Precision 5680,2B0PDY3,i7-13800H,32 GB DDR5,512 GB NVMe,B,Normal W&T,,No,,FALSE,English (UK),63.00%,Below,October '25
-1,Laptop,Apple,"Macbook Pro 16"" (A2780/2023)",PRXFNJ4J5W,Apple M2,32 GB DDR5,512GB NVMe,B,Normal W&T,,No,,FALSE,DK,98.00%,Above,October '25
+1,Laptop,Dell,Precision 5680,2B0PDY3,i7-13800H,32 GB DDR5,512 GB NVMe,B,Normal W&T,,No,,FALSE,English (UK),0.63,Below,October '25
+1,Laptop,Apple,"Macbook Pro 16"" (A2780/2023)",PRXFNJ4J5W,Apple M2,32 GB DDR5,512GB NVMe,B,Normal W&T,,No,,FALSE,DK,0.98,Above,October '25
 1,Laptop,Apple,"Macbook Pro 16"" (A2141/2019)",C02ZP973MD6P,,,,B,Normal W&T,,Yes,GBT US LLC,FALSE,English (UK),,,October '25
 1,Laptop,Lenovo,ThinkPad X1 Carbon 3rd,QDM6YFX4X9,,,,B,"Normal W&T, Small Scratches (Top cover)",,Yes,GBT US LLC,FALSE,French,,,October '25
 1,Laptop,Dell,Latitude 5440,FS6DFY3,i7-1365U,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT US LLC,TRUE,Belgian,100.00%,Above,October '25
@@ -204,12 +199,12 @@ Normal W&T
 1,Laptop,Dell,Latitude 5420,7J7NMN3,i7-1185G7,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,TRUE,Spanish,77.00%,Below,November '25
 1,Laptop,Dell,Latitude 5420,86GK4J3,i7-1185G7,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,TRUE,English UK,93.00%,Above,November '25
 1,Laptop,Dell,Latitude 5420,2NJMMN3,i7-1185G7,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,TRUE,Spanish,83.00%,Above,November '25
-1,Laptop,Dell,Latitude 5420,DZ1K4J3,i7-1185G7,32 GB DDR4,256 GB,B,"Nick kasse, Small Marks on Screen, Heavy Tear(Top Cover), Deep Scratch(on Mouse Button), Defective Keyboard(Some keys only work periodically). RAM og SSD fjernet",,Yes,GBT,TRUE,German,100.00%,Above,November '25
+1,Laptop,Dell,Latitude 5420,DZ1K4J3,i7-1185G7,32 GB DDR4,256 GB,C,"Nick kasse, Small Marks on Screen, Heavy Tear(Top Cover), Deep Scratch(on Mouse Button), Defective Keyboard(Some keys only work periodically). RAM og SSD fjernet",,Yes,GBT,FALSE,German,100.00%,Above,November '25
 1,Laptop,Dell,Latitude 5420,BKCQ2M3,i7-1185G7,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,TRUE,Nordic,74.00%,Below,November '25
 1,Laptop,Dell,Precision 5550,C1SS4D3,i7-10750H,16 GB DDR4,512 GB,C,"Normal W&T, Defective Keyboard (Liqiud Damage), Small Marks on Screen, Heavy Tear (Top Cover)",,Yes,GBT,FALSE,,37.00%,Below,November '25
 1,Laptop,Dell,Latitude 5400,1SK7633,i7-8665U,16 GB DDR4,256 GB,B,"Normal W&T, HDD Health 31%",,No,,TRUE,Swedish/Finnish,69.00%,Below,November '25
-1,Laptop,Dell,Latitude 5400,7DZ5633,i7-8665U,16 GB DDR4,256 GB,B,Normal W&T,,No,,TRUE,English (International),0.78,Below,November '25
-1,Laptop,Dell,Latitude 5400,CPM4YY2,i5-8365U,16 GB DDR4,256 GB,C,"Normal W&T, Faint Whitespots on Screen, Fryser i Windows",,MAR,,FALSE,English UK/Irish,0.76,Below,November '25
+1,Laptop,Dell,Latitude 5400,7DZ5633,i7-8665U,16 GB DDR4,256 GB,B,Normal W&T,,No,,TRUE,English (International),78.00%,Below,November '25
+1,Laptop,Dell,Latitude 5400,CPM4YY2,i5-8365U,16 GB DDR4,256 GB,C,"Normal W&T, Faint Whitespots on Screen, Fryser i Windows",,MAR,,FALSE,English UK/Irish,76.00%,Below,November '25
 1,Laptop,Dell,Latitude 5410,G1XW493,i7-10610U,16 GB DDR4,256 GB,C,"N W&T, Heavy Tear (Palmrest, Top & Bottom Cover), Defective USB Port, Worn Keys & Power Button",,No,,FALSE,Spanish (Castillian),43.00%,Below,November '25
 1,Laptop,Dell,Latitude 5410,H1S0043,i7-10610U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy tear (Top Cover), Whitespots on Screen",,No,,FALSE,French,52.00%,Below,November '25
 1,Laptop,Dell,Latitude 5410,BZN0043,i7-10610U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Bottom Cover), Marks on Screen",,No,,FALSE,French,21.00%,Below,November '25
@@ -218,9 +213,8 @@ Normal W&T
 1,Laptop,Lenovo,ThinkPad P16s Gen 1,PF3VARVH,i7-1260P,32 GB DDR4,512 GB NVMe,C,"Normal W&T, Marks on Screen",,,,FALSE,English (US) Reprint,,,El-Recycling
 1,Laptop,Lenovo,ThinkPad P16s Gen 1,PF49B6J1,i7-1260P,32 GB DDR4,1024 GB NVMe,C,"Normal W&T, Small Marks on Screen, Heavy Tear(Top Cover)",,,,FALSE,English (US) Reprint,86.00%,Above,El-Recycling
 1,Laptop,Lenovo,ThinkPad P16s Gen 1,PF49067Q,i7-1260P,32 GB DDR4,1024 GB NVMe,C,"Normal W&T, Whitespots on Screen, BIOS battery Missing",,,,FALSE,English (US) Reprint,90.00%,Above,El-Recycling
-1,Laptop,Lenovo,ThinkPad P16s Gen 2,PF3SVNWD,i7-1360P,32 GB DDR5,1024 GB NVMe,C,"Normal W&T, Broken Palmrest(Right Side),",,,,FALSE,English (US) Reprint,84.00%,Above,El-Recycling
-1,Laptop,Lenovo,ThinkPad P16s Gen 2,PF3SWDLR,i7-1360P,32 GB DDR5,512 GB NVMe,B,"Normal W&T, Small Marks on Screen, Changed Keyboard",,,,FALSE,English (US),100.00%,Above,El-Recycling
-1,Laptop,Lenovo,ThinkPad P16s Gen 2,PF525FCP,i7-1370P,32 GB DDR5,512 GB NVMe,B,"Normal W&T, Small Marks on Screen",,,,FALSE,English (US),100.00%,Above,El-Recycling
+1,Laptop,Lenovo,ThinkPad P16s Gen 2,PF3SVNWD,i7-1360P,32 GB DDR5,1024 GB NVMe,C,"Normal W&T, Broken Palmrest(Right Side),",,,,FALSE,English (US) Reprint,0.84,Above,El-Recycling
+1,Laptop,Lenovo,ThinkPad P16s Gen 2,PF3SWDLR,i7-1360P,32 GB DDR5,512 GB NVMe,B,"Normal W&T, Small Marks on Screen, Changed Keyboard",,,,FALSE,English (US),1,Above,El-Recycling
 1,Laptop,Lenovo,ThinkPad T14s Gen 1,PC1P6DN0,i5-10210U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Medium Tear (Top Cover), Defective Right USB Port",,,,FALSE,Nordic,77.00%,Below,El-Recycling
 1,Laptop,Lenovo,ThinkPad T14s Gen 1,PC1P6DN5,i5-10210U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Medium Tear  (Top Cover), Broken Bezel Hinges",,,,FALSE,Nordic,99.00%,Above,El-Recycling
 1,Laptop,Lenovo,ThinkPad T14s Gen 3,GM04NYK4,i5-1240P,16 GB DDR5,256 GB NVMe,C,"Normal W&T, Heavy Tear(Top Cover), Broken Screen, Mark on Screen",,,,FALSE,Nordic,86.00%,Above,El-Recycling
@@ -228,11 +222,10 @@ Normal W&T
 1,Laptop,Lenovo,ThinkPad T15 Gen 1,PF2KGHQB,i5-10210U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Small Marks on Screen, Medium Tear(Top), Faint WS (Right)",,,,FALSE,Nordic,91.00%,Above,El-Recycling
 1,Laptop,Lenovo,ThinkPad T16 Gen 2,PF4ZQTFV,i5-1345U,16 GB DDR5,256 GB NVMe,C,"Normal W&T, Small Marks on Screen, Heavy Tear(Top Cover)",,,,FALSE,Nordic,100.00%,Above,El-Recycling
 1,Laptop,Lenovo,ThinkPad T16 Gen 2,PF4HT976,i5-1335U,16 GB DDR5,256 GB NVMe,C,"Normal W&T, Small Marks on Screen, Marks on Screen",,,,FALSE,English (US),88.00%,Above,El-Recycling
-1,Laptop,Lenovo,ThinkPad T490s,PC1ATM05,i7-8565U,16 GB DDR4,256 GB NVMe,D,"Normal W&T, Heavy Tear (Top Cover & Palmrest), Worn Touchpad, Whitespots on Screen, Marks on Screen, Anti Theft Sticker",,,,FALSE,Nordic,100.00%,Above,El-Recycling
 1,Laptop,Apple,"Macbook Pro 16"" (A2141/2019)",C02C80CZMD6W,i9-9880H,16 GB DDR4,1024 GB,C,"Normal W&T, Marks on Screen",,No,,FALSE,Swedish,79.00%,Below,November '25
 1,Desktop,Lenovo,Thinkcentre M73 Micro,PC05XZF9,i5-4590T,16 GB DDR3,500 GB,B,"Normal W&T, Cannot install win 11 (Lock status not possible)",,,,FALSE,,,,November '25
 1,Laptop,Dell,Latitude 3430,2QWVGS3,i5-1235U,16 GB DDR4,256 GB,B,Normal W&T,,No,,TRUE,English UK,84.00%,Above,November '25
-1,Laptop,Dell,Latitude 5430,96MSHR3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover (R)), HDD Health 9% (R)",,No,,FALSE,German,87.00%,Above,November '25
+1,Laptop,Dell,Latitude 5430,96MSHR3,i7-1255U,16 GB DDR4,256 GB,D,"Normal W&T, Heavy Tear (Top Cover (R)), HDD Health 9% (R), Broken Screen",,No,,FALSE,German,87.00%,Above,November '25
 1,Laptop,Dell,Latitude 5430,J5XTRQ3,i7-1255U,16 GB DDR4,256 GB,B,"Normal W&T, Small Scrarchest (Top Cover)",,No,,TRUE,French (Europe),92.00%,Above,November '25
 1,Laptop,Dell,Latitude 5430,27JVSQ3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover (D)), Whitespots on Screen (D)",,Yes,GBT,FALSE,French (Europe),74.00%,Below,November '25
 1,Laptop,Dell,Latitude 5430,5X0RVV3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Scratches (Top Cover)",,Yes,GBT,TRUE,French (Europe),72.00%,Below,November '25
@@ -240,21 +233,20 @@ Normal W&T
 1,Laptop,Dell,Latitude 5440,DYD0544,i7-1365U,16 GB DDR4,256 GB,D,"Normal W&T, Heavy Tear (Top Cover, (D)), Defective Screen (Water Damage, (D))",,Yes,GBT,FALSE,English UK,96.00%,Above,November '25
 1,Laptop,Dell,Latitude 5430,BZ1WSQ3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Whitespots on Screen (R)",,Yes,GBT,FALSE,French (Europe),100.00%,Above,November '25
 1,Laptop,Dell,Latitude 5430,8B185X3,i7-1265U,16 GB DDR4,256 GB,D,"Normal W&T, Heavy Tear (Top Cover (D)), Broken Screen (D)",,Yes,GBT,FALSE,English International,55.00%,Below,November '25
-1,Laptop,Apple,"Macbook Pro 13 (A2338, 2022)",L34J0F4NYQ,M2,16 GB DDR5,512 GB,C,"Normal W&T, Marks on Screen, Locked: GBT US LLC",,Yes,GBT US LLC,,,0.86,Above,December '25
+1,Laptop,Apple,"Macbook Pro 13 (A2338, 2022)",L34J0F4NYQ,M2,16 GB DDR5,512 GB,C,"Normal W&T, Marks on Screen, Locked: GBT US LLC",,Yes,GBT US LLC,,,86.00%,Above,December '25
 1,Laptop,Apple,"Macbook Pro 13"" (A1989/2019)",C02ZL23CLVDL,i7-8569U,16 GB DDR3,512 GB,C,"Normal W&T, Marks on Screen",,No,,,,82.00%,Above,December '25
 1,Laptop,Apple,"Macbook Pro 15 (A1707, 2016)",C02VD121HTDD,i7-7700HQ,16 GB DDR3,1024 GB,B,"Normal W&T, Small Marks on Screen",,No,,TRUE,English UK,81.00%,Above,December '25
  ,Laptop,Apple,"Macbook Pro 16"" (A2485/2021)",MDP46G69VV,M1 Pro,16 GB DDR5,1024 GB,C,"Normal W&T, Marks on Screen",,No,,TRUE,Danish,79.00%,Below,December '25
 1,Laptop,Dell,Latitude 5400,3R7H3Z2,i5-8365U,8 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover), Whitespots on Screen, Missing Rubber Feet",,,,FALSE,Czech/Slovakian,41.00%,Below,December '25
 1,Laptop,Dell,Latitude 5430,GPRH5X3,i7-1265U,16 GB DDR4,256 GB NVMe,B,"Normal W&T,",,MAR,,TRUE,English International,97.00%,Above,December '25
 1,Laptop,Dell,Latitude 5430,9NP0WV3,i7-1255U,16 GB DDR4,256 GB,D,"Normal W&T, Will not Power on (W)",,,,FALSE,French (Europe),N/A,N/A,December '25
-1,Laptop,Dell,Latitude 5430,CR15KR3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover, (R))",,Yes,GBT,TRUE,Danish,0.8,Above,December '25
+1,Laptop,Dell,Latitude 5430,CR15KR3,i7-1255U,16 GB DDR4,256 GB,D,"Normal W&T, Heavy Tear (Top Cover, (R)), Broken Screen",,Yes,GBT,TRUE,Danish,0.8,Above,December '25
 1,Laptop,Dell,Latitude 5430,85CH5X3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Drop Damage (Top Cover (R))",,Yes,GBT,FALSE,Spanish Castillian,0.71,Below,December '25
-1,Laptop,Dell,Latitude 5430,G3R8FK3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy tear (Top Cover Edge(R))",,Yes,GBT,TRUE,Swiss (Europe),74.00%,Below,December '25
-1,Laptop,Dell,Latitude 5430,9QT2WV3,i7-1255U,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,FALSE,DK,100.00%,Above,December '25
+1,Laptop,Dell,Latitude 5430,G3R8FK3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy tear (Top Cover Edge(R))",,Yes,GBT,TRUE,Swiss (Europe),0.74,Below,December '25
+1,Laptop,Dell,Latitude 5430,9QT2WV3,i7-1255U,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,FALSE,DK,1,Above,December '25
 1,Laptop,Dell,Latitude 5430,CV0RVV3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover (R))",,Yes,GBT,FALSE,French (Europe),66.00%,Below,December '25
 1,Laptop,Dell,Latitude 5430,4MSZVV3,i7-1255U,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,FALSE,French (Europe),87.00%,Above,December '25
-1,Laptop,Dell,Latitude 5430,D0YHJR3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover, (R))",,Yes,GBT,TRUE,German,92.00%,Above,December '25
-1,Laptop,Dell,Latitude 5430,3XTFJR3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover, (R))",,Yes,GBT,TRUE,English UK,96.00%,Above,December '25
+1,Laptop,Dell,Latitude 5430,D0YHJR3,i7-1255U,16 GB DDR4,256 GB,D,"Normal W&T, Heavy Tear (Top Cover, (R)), Broken Screen",,Yes,GBT,TRUE,German,0.92,Above,December '25
 1,Laptop,Dell,Latitude 5430,93J0WV3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover, (R)), Small Marks on Screen",,Yes,GBT,FALSE,German,0.85,Above,December '25
 1,Laptop,Dell,Latitude 5430,377MSQ3,i7-1265U,16 GB DDR4,256 GB,D,"Normal W&T, Heavy Tear (Top Cover & Bottom Cover, (D)),  Broken Screen (D), Worn Key (Ctrl, (D))",,Yes,GBT,FALSE,English UK,0.74,Below,December '25
 1,Laptop,Dell,Latitude 5430,J971WV3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover(R)), Marks on Screen (R)",,Yes,GBT,FALSE,German,96.00%,Above,December '25
@@ -263,31 +255,31 @@ Normal W&T
 1,Laptop,Dell,Latitude 5430,9HCGJR3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Scratches (Bottom Cover)",,Yes,GBT,FALSE,English UK,75.00%,Below,December '25
 1,Laptop,Dell,Latitude 5430,8QB0WV3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover, (R))",,Yes,GBT,FALSE,German,100.00%,Above,December '25
 1,Laptop,Dell,Latitude 5430,1KY1SQ3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Whitespots on Screen (W), HDD Health 27% (R)",,Yes,GBT,FALSE,Spanish Castillian,56.00%,Below,December '25
-1,Laptop,Dell,Latitude 5430,2H3SKR3,i7-1265U,16 GB DDR4,256 GB,D,"N W&T, Heavy Tear (Top & Bottom Cover (D)), Marks on Screen (D), Defective Keyboard (Unresponsive Key, (D))",,Yes,GBT,FALSE,English UK,75.00%,Below,December '25
-1,Laptop,Dell,Latitude 5430,74T7JR3,i7-1255U,16 GB DDR4,256 GB,B,Normal W&T,,MAR,,TRUE,German,100.00%,Above,December '25
+1,Laptop,Dell,Latitude 5430,2H3SKR3,i7-1265U,16 GB DDR4,256 GB,D,"N W&T, Heavy Tear (Top & Bottom Cover (D)), Marks on Screen (D), Defective Keyboard (Unresponsive Key, (D))",,Yes,GBT,FALSE,English UK,0.75,Below,December '25
+1,Laptop,Dell,Latitude 5430,74T7JR3,i7-1255U,16 GB DDR4,256 GB,B,Normal W&T,,MAR,,TRUE,German,1,Above,December '25
 1,Laptop,Dell,Latitude 5430,4Q80TQ3,i7-1265U,16 GB DDR4,256 GB,B,Normal W&T,,No,,FALSE,Spanish Castillian,70.00%,Below,December '25
 1,Laptop,Dell,Latitude 5430,2CRMST3,i7-1265U,16 GB DDR4,256 GB,B,Normal W&T,,MAR,,TRUE,Spanish (Castillian),100.00%,Above,December '25
 1,Laptop,Dell,Latitude 5430,CF7MSQ3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Worn Keys (E,A,S,D,C,N,M)",,Yes,GBT,FALSE,English UK,65.00%,Below,December '25
-1,Laptop,Dell,Latitude 5430,4FJYSQ3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Whitespots on Screen (W), HDD Health 47% (R)",,No,,FALSE,German,73.00%,Below,December '25
+1,Laptop,Dell,Latitude 5430,4FJYSQ3,i7-1255U,16 GB DDR4,256 GB,B,"Normal W&T, HDD Health 47% (R)",,No,,FALSE,German,73.00%,Below,December '25
 1,Laptop,Dell,Latitude 5430,7SGSKR3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover & Palmrest(R)), Cracked Top Cover (R)",,Yes,GBT,FALSE,Nordic (MUI),72.00%,Below,December '25
 1,Laptop,Dell,Latitude 5430,7F7JSQ3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover(D)), Marks on Screen (D), Worn Mousepad (D)",,Yes,GBT,FALSE,English US,70.00%,Below,December '25
-1,Laptop,Dell,Latitude 5430,4JP1TQ3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Palmrest Top & Bottom Cover (R)), Marks on Screen (R)",,Yes,GBT,FALSE,Spanish Castillian,0.61,Below,December '25
-1,Laptop,Dell,Latitude 5430,5G71WV3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover,(R), Worn Key (N,M,K,L, (R)), Whitespots on Screen",,Yes,GBT,FALSE,Scandinavian (MUI),0.77,Below,December '25
-1,Laptop,Dell,Latitude 5430,DTX1TQ3,i7-1255U,16 GB DDR4,256 GB,B,"Normal W&T, Small Marks on Screen",,MAR,,TRUE,German,1,Above,December '25
-1,Laptop,HP,HP mt46 Mobile Thin Client,5CG2330WMT,Ryzen 3 PRO 4450U,8 GB DDR4,128 GB,C,"Normal W&T, Defective CMOS Battery, Small Marks on Screen",,No,,FALSE,French,0.97,Above,December '25
-1,Laptop,Dell,Latitude 3420,F3X8HS3,i5-1145G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy tear (Top Cover, (R))",,Yes,GBT,FALSE,Scandinavian (MUI),0.92,Above,December '25
-1,Laptop,Dell,Latitude 3420,CPWRGS3,i5-1145G7,16 GB DDR4,256 GB,C,"Normal W&T, Marks on Screen (R)",,Yes,GBT,FALSE,Belgian,0.79,Below,December '25
-1,Laptop,Dell,Latitude 3420,56VRGS3,i5-1145G7,16 GB DDR4,256 GB,D,"Normal W&T, Defective Screen (Flickers, (R))",,Yes,GBT,FALSE,English International,0.8,Above,December '25
-1,Laptop,Dell,Latitude 3420,J92WGS3,i5-1145G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover (R)), Whitespots on Screen (W), Small Marks on Screen",,Yes,GBT,FALSE,Scandinavian (MUI),0.83,Above,December '25
+1,Laptop,Dell,Latitude 5430,4JP1TQ3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Palmrest Top & Bottom Cover (R)), Marks on Screen (R)",,Yes,GBT,FALSE,Spanish Castillian,61.00%,Below,December '25
+1,Laptop,Dell,Latitude 5430,5G71WV3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover,(R), Worn Key (N,M,K,L, (R)), Whitespots on Screen",,Yes,GBT,FALSE,Scandinavian (MUI),77.00%,Below,December '25
+1,Laptop,Dell,Latitude 5430,DTX1TQ3,i7-1255U,16 GB DDR4,256 GB,B,"Normal W&T, Small Marks on Screen",,MAR,,TRUE,German,100.00%,Above,December '25
+1,Laptop,HP,HP mt46 Mobile Thin Client,5CG2330WMT,Ryzen 3 PRO 4450U,8 GB DDR4,128 GB,C,"Normal W&T, Defective CMOS Battery, Small Marks on Screen",,No,,FALSE,French,97.00%,Above,December '25
+1,Laptop,Dell,Latitude 3420,F3X8HS3,i5-1145G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy tear (Top Cover, (R))",,Yes,GBT,FALSE,Scandinavian (MUI),92.00%,Above,December '25
+1,Laptop,Dell,Latitude 3420,CPWRGS3,i5-1145G7,16 GB DDR4,256 GB,C,"Normal W&T, Marks on Screen (R)",,Yes,GBT,FALSE,Belgian,79.00%,Below,December '25
+1,Laptop,Dell,Latitude 3420,56VRGS3,i5-1145G7,16 GB DDR4,256 GB,D,"Normal W&T, Defective Screen (Flickers, (R))",,Yes,GBT,FALSE,English International,80.00%,Above,December '25
+1,Laptop,Dell,Latitude 3420,J92WGS3,i5-1145G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover (R)), Whitespots on Screen (W), Small Marks on Screen",,Yes,GBT,FALSE,Scandinavian (MUI),83.00%,Above,December '25
 1,Laptop,Dell,Latitude 3430,C41YGS3,i5-1235U,16 GB DDR4,256 GB,C,"N W&T, Heavy tear (Top & Bottom Cover (D)), Marks on Screen (D), 1 Defective USB Port (D), 1 Broken USB Port (D)",,Yes,GBT,FALSE,Nordic (MUI),0.59,Below,December '25
-1,Laptop,Dell,Latitude 3430,FF2WGS3,i5-1235U,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,TRUE,English UK,88.00%,Above,December '25
-1,Laptop,Dell,Latitude 3430,J7G4GS3,i5-1235U,16 GB DDR4,256 GB,C,"Normal W&T, Cracked Top Cover & Palmrest (D), Whitespots on Screen (D)",,Yes,GBT,FALSE,English UK,84.00%,Above,December '25
-1,Laptop,Dell,Latitude 5400,J066633,i7-8665U,16 GB DDR4,256 GB,B,Normal W&T,,No,,TRUE,English (International),74.00%,Below,December '25
-1,Laptop,Dell,Latitude 5410,JGTLZ53,i7-10610U,16 GB DDR4,256 GB,C,"Whitespots on Screen, Defective Keyboard (Unresponsive Keys)",,No,,FALSE,German,88.00%,Above,December '25
-1,Laptop,Dell,Latitude 5410,9JSL593,i7-10610U,16 GB DDR4,256 GB,B,Normal W&T,,No,,TRUE,French (Europe),82.00%,Above,December '25
-1,Laptop,Dell,Latitude 5410,CC0MZ53,i7-10610U,16 GB DDR4,256 GB,B,Normal W&T,,No,,TRUE,German,83.00%,Above,December '25
-1,Laptop,Dell,Latitude 5410,J2B1GB3,i7-10610U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover), Marks on Screen, Broken USB Port",,No,,FALSE,German,56.00%,Below,December '25
-1,Laptop,Dell,Latitude 5410,590MZ53,i7-10610U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover)",,No,,FALSE,German,56.00%,Below,December '25
+1,Laptop,Dell,Latitude 3430,FF2WGS3,i5-1235U,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,TRUE,English UK,0.88,Above,December '25
+1,Laptop,Dell,Latitude 3430,J7G4GS3,i5-1235U,16 GB DDR4,256 GB,C,"Normal W&T, Cracked Top Cover & Palmrest (D), Whitespots on Screen (D)",,Yes,GBT,FALSE,English UK,0.84,Above,December '25
+1,Laptop,Dell,Latitude 5400,J066633,i7-8665U,16 GB DDR4,256 GB,B,Normal W&T,,No,,TRUE,English (International),0.74,Below,December '25
+1,Laptop,Dell,Latitude 5410,JGTLZ53,i7-10610U,16 GB DDR4,256 GB,C,"Whitespots on Screen, Defective Keyboard (Unresponsive Keys)",,No,,FALSE,German,0.88,Above,December '25
+1,Laptop,Dell,Latitude 5410,9JSL593,i7-10610U,16 GB DDR4,256 GB,B,Normal W&T,,No,,TRUE,French (Europe),0.82,Above,December '25
+1,Laptop,Dell,Latitude 5410,CC0MZ53,i7-10610U,16 GB DDR4,256 GB,B,Normal W&T,,No,,TRUE,German,0.83,Above,December '25
+1,Laptop,Dell,Latitude 5410,J2B1GB3,i7-10610U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover), Marks on Screen, Broken USB Port",,No,,FALSE,German,0.56,Below,December '25
+1,Laptop,Dell,Latitude 5410,590MZ53,i7-10610U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover)",,No,,FALSE,German,0.56,Below,December '25
 1,Laptop,Dell,Latitude 5410,2QY0GB3,i7-10610U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover), Marks on Screen, Worn Left Click Button",,No,,FALSE,German,22.00%,Below,December '25
 1,Laptop,Dell,Latitude 5420,8HX21F3,i7-1185G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover)",,No,,FALSE,German,70.00%,Below,December '25
 1,Laptop,Dell,Latitude 5420,8YZM3D3,i7-1185G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover)",,No,,FALSE,Norwegian,53.00%,Below,December '25
@@ -297,7 +289,6 @@ Normal W&T
 1,Laptop,Dell,Latitude 5420,1MVBQN3,i7-1185G7,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,TRUE,Spanish Castillian,76.00%,Below,December '25
 1,Laptop,Dell,Latitude 5420,2M5R4D3,i7-1185G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Bottom Cover), Whitespots on Screen",,No,,TRUE,English UK,76.00%,Below,December '25
 1,Laptop,Dell,Latitude 5420,DWBMJQ3,i7-1185G7,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,TRUE,German,87.00%,Above,December '25
-1,Laptop,HP,EliteBook 745,5CG6052HFW,A6 PRO-7050B R4,4 GB DDR3,16 GB,C,"Normal W&T Defect CMOS Battery, Supporter ikke windows 11",,,,FALSE,English UK,100.00%,Above,December '25
 1,Laptop,Lenovo,Thinkpad T440s,PF00F7D4,i5-4300U,8 GB DDR3,128 GB,C,"Normal W&T, Defective keyboard (Multible keys loose), Supporter ikke windows 11",,,,FALSE,French (Europe),79.00%,Below,December '25
 1,Desktop,Dell,Optiplex Micro Plus 7010,2FNDNZ3,i5-13600,32 GB DDR5,256 GB,B,Normal W&T,,Yes,GBT,FALSE,,,,December '25
 1,Desktop,Dell,OptiPlex Micro Plus 7010,D7JDWY3,i7-13700,16 GB DDR5,256 GB,B,Normal W&T,,Yes,GBT,FALSE,,,,December '25
@@ -325,8 +316,6 @@ Normal W&T
 1,Laptop,Lenovo,ThinkPad T14 Gen 3,PF4D9SCV,I5-1235U,16 GB DDR4,256 GB,B,Normal W&T,,,,TRUE,Nordic,,,DanOffice
 1,Laptop,Lenovo,ThinkPad T14s Gen 1,PC1P593M,I5-10210U,16 GB DDR4,256 GB,D,"Normal W&T, Marks on Screen, Medium Tear (Top Cover), Defective Mousepad",,,,FALSE,Nordic,,,DanOffice
 1,Laptop,Lenovo,ThinkPad T14s Gen 2i,GM0DZ7YE,I5-1135G7,16 GB DDR4,512 GB,C,"Normal W&T, Screen Miscoloration.",,,,FALSE,Nordic,,,DanOffice
-1,Laptop,Lenovo,ThinkPad T490s,PC17ZJL7,I5-8265U,16 GB DDR4,256 GB,D,"Normal W&T, Marks on Screen, Dead Pixel on Screen, Heavy Tear (Top Cover and Palmrest), Worn Trackpad, Defective CMOS Battery",,,,FALSE,Nordic,,,DanOffice
-1,Laptop,Lenovo,ThinkPad L570,MP1CXS4X,I5-7200U,8 GB DDR4,180 GB,B,Normal W&T,,,,TRUE,Danish,,,DanOffice
 1,Laptop,Lenovo,ThinkPad T14 Gen 4,PF4PQXSF,I5-1335U,16 GB DDR5,256 GB,B,Normal W&T,,,,TRUE,Nordic,100.00%,Above,DanOffice
 1,Laptop,Lenovo,ThinkPad X1 Carbon 5th,PF13WGU7,I5-7200U,8 GB DDR3,256 GB,B,"Normal W&T, Worn CMOS battery",,,,TRUE,Danish,85.00%,Above,DanOffice
 1,Laptop,Lenovo,ThinkPad T14 Gen 4,PF4HW6F7,I5-1335U,16 GB DDR5,256 GB,B,Normal W&T,,,,TRUE,Nordic,100.00%,Above,DanOffice
@@ -334,42 +323,41 @@ Normal W&T
 1,Laptop,Microsoft,Surface Pro 7+,169828104953,I3,8 GB DDR4,128 GB,B,Normal W&T,,,,TRUE,Nordic,,,DanOffice
 1,Laptop,Lenovo,ThinkPad L15 Gen 1,PF3PZL9G,Ryzen 5 4500U,8 GB DDR4,No,D,"Normal W&T, Marks on Screen, Defect Trackpad (Left and right button)",,,,FALSE,Nordic,95.00%,Above,DanOffice
 1,Laptop,Microsoft,Surface Pro 6,39925792953,I5-8350U,8 GB DDR3,256 GB,D,"Normal W&T, Dead Pixels",,,,FALSE,Nordic,56.00%,Below,DanOffice
-1,Laptop,Microsoft,Surface Pro 4,33855454853,I5-6300U,4 GB DDR3,128 GB,B,Normal W&T,,,,TRUE,Nordic,0.84,Above,DanOffice
-1,Laptop,Microsoft,Surface Pro 7,18154201553,I5-1035G4,8 GB DDR4,256 GB,C,"Normal W&T, Worn Keyboard",,,,TRUE,Nordic,0.76,Below,DanOffice
-1,Laptop,Microsoft,Surface Pro 4,45934354853,I5-6300U,4 GB DDR3,128 GB,D,"Normal W&T, Defective Touchscreen (Not working)",,,,FALSE,Nordic,0.82,Above,DanOffice
+1,Laptop,Microsoft,Surface Pro 4,33855454853,I5-6300U,4 GB DDR3,128 GB,B,Normal W&T,,,,TRUE,Nordic,84.00%,Above,DanOffice
+1,Laptop,Microsoft,Surface Pro 7,18154201553,I5-1035G4,8 GB DDR4,256 GB,C,"Normal W&T, Worn Keyboard",,,,TRUE,Nordic,76.00%,Below,DanOffice
+1,Laptop,Microsoft,Surface Pro 4,45934354853,I5-6300U,4 GB DDR3,128 GB,D,"Normal W&T, Defective Touchscreen (Not working)",,,,FALSE,Nordic,82.00%,Above,DanOffice
 1,Docking Station,Dell,WD22TB4,GFDP4S3,,,,C,"Normal W&T, Heavy Tear (Top Cover)",,,,FALSE,,,,HUC
-1,Laptop,Dell,Precision 5540,J1ZWM53,i7-9850H,32 GB DDR4,1024 GB NVMe,B,"Normal W&T, Faint White Spot (Bemærk; Laptop har Touchscreen)",Sticky Keys,MAR,,TRUE,Nordic,0.88,Above,Kosmos
+1,Laptop,Dell,Precision 5540,J1ZWM53,i7-9850H,32 GB DDR4,1024 GB NVMe,B,"Normal W&T, Faint White Spot (Bemærk; Laptop har Touchscreen)",Sticky Keys,MAR,,TRUE,Nordic,88.00%,Above,Kosmos
 1,Dock,HP,USB-C Dock G5,5CG152W7DW,,,,C,"Normal W&T, Cracked Cover (LAN port)",,,,FALSE,,,,Kornferry
 1,Desktop,Dell,OptiPlex 7090 Micro,1PL8SK3,i7-10700T,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear(Top Cover), Power Button Broken",Repair will need to replace the pwr button on the system board,Yes,,FALSE,,,,January '26
 1,Desktop,Dell,OptiPlex 7000 Micro,482C5S3,i7-12700T,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,,FALSE,,,,January '26
 1,Desktop,Lenovo,ThinkCentre M73 Micro,PC05XZL7,i5-4590T,16 GB DDR3,500 GB HDD,B,"Normal W&T, can't install Windows 11",,,,FALSE,,,,January '26
-1,Laptop,Dell,Latitude 5410,6BMGP73,i7-10610U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover), Marks on Screen",,No,,FALSE,German,0.63,Below,January '26
-1,Laptop,Dell,Latitude 5410,9GM0043,i7-10610U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover)",Top Cover Skin,No,,FALSE,French,0.71,Below,January '26
-1,Laptop,Dell,Latitude 5410,FMFQN73,i7-10610U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover)",,No,,FALSE,Belgian,64.00%,Below,January '26
-1,Laptop,Dell,Latitude 5420,19V86J3,i7-1185G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover), Cracked Bottom Cover, Worn Keyboard, Defective USB-C Port",,Yes,GBT,FALSE,English UK,49.00%,Below,January '26
-1,Laptop,Dell,Latitude 5420,38G46J3,i7-1185G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover), Marks on Screen",,Yes,GBT,FALSE,English UK,56.00%,Below,January '26
+1,Laptop,Dell,Latitude 5410,6BMGP73,i7-10610U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover), Marks on Screen",,No,,FALSE,German,63.00%,Below,January '26
+1,Laptop,Dell,Latitude 5410,9GM0043,i7-10610U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover)",Top Cover Skin,No,,FALSE,French,71.00%,Below,January '26
+1,Laptop,Dell,Latitude 5410,FMFQN73,i7-10610U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover)",,No,,FALSE,Belgian,0.64,Below,January '26
+1,Laptop,Dell,Latitude 5420,19V86J3,i7-1185G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover), Cracked Bottom Cover, Worn Keyboard, Defective USB-C Port",,Yes,GBT,FALSE,English UK,0.49,Below,January '26
+1,Laptop,Dell,Latitude 5420,38G46J3,i7-1185G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover), Marks on Screen",,Yes,GBT,FALSE,English UK,0.56,Below,January '26
 1,Laptop,Dell,Latitude 5420,HY836J3,i7-1185G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Palmrest, Top & Bottom Cover), Whitespots on Screen",,Yes,GBT,FALSE,French,0.64,Below,January '26
 1,Laptop,Dell,Latitude 5420,699C5M3,i7-1185G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy tear (Top & Bottom Cover), Marks on Screen",,Yes,GBT,FALSE,English UK,0.59,Below,January '26
-1,Laptop,Dell,Latitude 5420,875Q5J3,i7-1185G7,16 GB DDR4,256 GB NVMe,D,"N W&T, Heavy Tear (Top & Bottom Cover), Metlting Damage (Top Cover), Worn Key (Alt), Whitesspots",,Yes,GBT,FALSE,English UK,59.00%,Below,January '26
-1,Laptop,Dell,Latitude 5420,C49L4J3,i7-1185G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,FALSE,French,93.00%,Above,January '26
-1,Laptop,Dell,Latitude 5420,132K4J3,i7-1185G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Palmrest, Top & Bottom Cover), Marks on Screen",,Yes,GBT,FALSE,German,97.00%,Above,January '26
-1,Laptop,Dell,Latitude 5420,6SWMMN3,i7-1185G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Palmrest, Top & Bottom Cover)",,Yes,GBT,FALSE,Spanish,62.00%,Below,January '26
+1,Laptop,Dell,Latitude 5420,875Q5J3,i7-1185G7,16 GB DDR4,256 GB NVMe,D,"N W&T, Heavy Tear (Top & Bottom Cover), Metlting Damage (Top Cover), Worn Key (Alt), Whitesspots",,Yes,GBT,FALSE,English UK,0.59,Below,January '26
+1,Laptop,Dell,Latitude 5420,C49L4J3,i7-1185G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,FALSE,French,0.93,Above,January '26
+1,Laptop,Dell,Latitude 5420,132K4J3,i7-1185G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Palmrest, Top & Bottom Cover), Marks on Screen",,Yes,GBT,FALSE,German,0.97,Above,January '26
+1,Laptop,Dell,Latitude 5420,6SWMMN3,i7-1185G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Palmrest, Top & Bottom Cover)",,Yes,GBT,FALSE,Spanish,0.62,Below,January '26
 1,Laptop,Dell,Latitude 5420,9L903M3,i7-1185G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top & Bottom Cover), Broken Bezel, Marks on Screen",,Yes,GBT,FALSE,English UK,0.69,Below,January '26
 1,Laptop,Dell,Latitude 5420,9M3C5M3,i7-1185G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover & Palmrest), Worn Keys (E,R,T,A,S,D,H,L,K,C,V,N,M)",,Yes,GBT,FALSE,English UK,0.62,Below,January '26
-1,Laptop,Dell,Latitude 5420,5KGJ6M3,i7-1185G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Whitespots on Screen",,Yes,GBT,FALSE,English International,0.64,Below,January '26
+1,Laptop,Dell,Latitude 5420,5KGJ6M3,i7-1185G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Whitespots on Screen",,Yes,GBT,FALSE,English International,64.00%,Below,January '26
 1,Laptop,Dell,Latitude 5400,FL9XP13,i7-8665U,16 GB DDR4,256 GB,C,"Normal W&T, Marks on Screen, Crashes in Certus",,No,,FALSE,English UK/Irish,N/A,N/A,January '26
 1,Laptop,Dell,Latitude 5400,J666633,i7-8665U,16 GB DDR4,256 GB,C,"Normal W&T, Drop Damage (Palmrest), Whitespots on Screen, Broken Bezel, Missing Trackpoint",,No,,FALSE,US International,0.62,Below,January '26
 1,Desktop,Dell,Optiplex 7070 Ultra,CPX3G33,i7-8665U,16 GB DDR4,256 GB,B,"Normal W&T, Disk 54%",,No,,FALSE,,,,January '26
 1,Desktop,Dell,Optiplex 7070 Ultra,2N5B833,i7-8665U,16 GB DDR4,256 GB,B,"Normal W&T, Disk 58%, Noisy fan",,No,,FALSE,,,,January '26
 1,Docking Station,Dell,WD19S,CQQ2LP3,N/A,N/A,N/A,C,"Normal W&T, Scratches",,,,FALSE,N/A,N/A,N/A,HUC
 1,Docking Station,Lenovo,40A9,ZAF0FD2F,,,,B,Normal W&T,,,,TRUE,,,,El-Recycling
-1,Desktop,Dell,OptiPlex Micro Plus 7010,4YTCYY3,i7-13700,16 GB DDR5,256 GB NVMe,B,Normal W&T,,MAR,,TRUE,,,,August '25
-1,Laptop,Apple,"Macbook Pro 16"" (A2485/2021)",GWR9C077QW,Apple M1,16 GB DDR5,1000 GB NVMe,C,"Normal W&T, Marks on Screen",,No,,,Spanish,84.00%,Above,January '26
-1,Laptop,Apple,"Macbook Pro 16"" (A2485/2021)",MFCFMXPG67,Apple M1,16 GB DDR5,500 GB NVMe,C,"Normal W&T, Dent (Top Cover), Small Marks on Screen",,No,,,English,85.00%,Above,January '26
+1,Laptop,Apple,"Macbook Pro 16"" (A2485/2021)",GWR9C077QW,Apple M1,16 GB DDR5,1000 GB NVMe,C,"Normal W&T, Marks on Screen",,No,,,Spanish,0.84,Above,January '26
+1,Laptop,Apple,"Macbook Pro 16"" (A2485/2021)",MFCFMXPG67,Apple M1,16 GB DDR5,500 GB NVMe,C,"Normal W&T, Dent (Top Cover), Small Marks on Screen",Top Cover Skin,No,,,English,0.85,Above,January '26
 1,Laptop,Dell,Latitude 5410,JWH2893,i7-10610U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover)",,,,,Nordic,0.62,Below,Oktober '2024
-1,Laptop,Dell,Latitude 5410,DDNFP73,i7-10610U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover)",,,,,German,82.00%,Above,Oktober '2024
-1,Laptop,Dell,Latitude 5410,5C3J793,i7-10610U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover)",Sticky Keys,,,,Nordic,79.00%,Below,Oktober '2024
-1,Laptop,Dell,Latitude 5430,73G2SQ3,i7-1265U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover), Marks on Screen, Broken Camera Glass",,No,,,English UK,72.00%,Below,January '26
+1,Laptop,Dell,Latitude 5410,DDNFP73,i7-10610U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover)",,,,,German,0.82,Above,Oktober '2024
+1,Laptop,Dell,Latitude 5410,5C3J793,i7-10610U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover)",Sticky Keys,,,,Nordic,0.79,Below,Oktober '2024
+1,Laptop,Dell,Latitude 5430,73G2SQ3,i7-1265U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover), Marks on Screen, Broken Camera Glass",,No,,,English UK,0.72,Below,January '26
 1,Laptop,Dell,Latitude 5430,DGRRKR3,i7-1265U,16 GB DDR4,256 GB,D,"Normal W&T, Broken Screen (R), Worn Keyboard (R), Freezes in Certus (W)",,Yes,GBT,,English UK,N/A,N/A,January '26
 1,Laptop,Dell,Latitude 5430,6D9SVV3,i7-1255U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover), Marks on Screen",,Yes,GBT,FALSE,Hungarian,0.84,Above,January '26
 1,Laptop,Dell,Latitude 5430,86XTRQ3,i7-1255U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Whitespots on Screen",,Yes,GBT,TRUE,French (Europe),0.66,Below,January '26
@@ -377,13 +365,13 @@ Normal W&T
 1,Laptop,Dell,Latitude 5430,HR7XSQ3,i7-1265U,16 GB DDR4,256 GB NVMe,D,"N W&T, Heavy Tear (Palmrest), Cracked Top & Bottom Cover), 2 Defective USB Ports, Whitespots",,Yes,GBT,,Spanish Castillian,0.66,Below,January '26
 1,Laptop,Dell,Latitude 5430,32JSVV3,i7-1255U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover), Marks on Screen",,Yes,GBT,,German,1,Above,January '26
 1,Laptop,Dell,Latitude 5430,17JLSQ3,i7-1265U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top & Bottom Cover), Small Marks on Screen",,Yes,GBT,,English UK,0.77,Below,January '26
-1,Laptop,Dell,Latitude 5430,6BY5KR3,i7-1255U,16 GB DDR4,256 GB NVMe,B,"Normal W&T, Faint Whitespotrs on Screen",,Yes,GBT,TRUE,DK,1,Above,January '26
+1,Laptop,Dell,Latitude 5430,6BY5KR3,i7-1255U,16 GB DDR4,256 GB NVMe,B,"Normal W&T, Faint Whitespotrs on Screen",,Yes,GBT,TRUE,DK,100.00%,Above,January '26
 1,Laptop,Dell,Latitude 5430,CG2J5X3,i7-1265U,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,TRUE,Spanish (Castillian),0.97,Above,January '26
-1,Laptop,Dell,Latitude 5430,5PVHSQ3,i7-1265U,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,,English US,0.75,Below,January '26
+1,Laptop,Dell,Latitude 5430,5PVHSQ3,i7-1265U,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,,English US,75.00%,Below,January '26
 1,Laptop,Dell,Latitude 5430,DXDMSQ3,i7-1265U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top & Bottom Cover)",,Yes,GBT,,English UK,88.00%,Above,January '26
 1,Laptop,Dell,Latitude 5430,4WLYCK3,i7-1255U,16 GB DDR4,256 GB NVMe,D,"Normal W&T, Heavy Tear (Top & Bottom Cover), Broken Screen, Broken Camera Glass",,Yes,GBT,,English International,87.00%,Above,January '26
-1,Laptop,Dell,Latitude 5430,F4MXSQ3,i7-1265U,16 GB DDR4,256 GB NVMe,D,"Normal W&T, Heavy Tear (Top Cover Edge & Palmrest), Cracked Bottom Cover, Broken Screen",,Yes,GBT,,Spanish Castillian,68.00%,Below,January '26
-1,Laptop,Dell,Latitude 3420,F92WGS3,i5-1145G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Small Crack (Bottom Cover), White spot",,Yes,GBT,,Scandinavian (MUI),100.00%,Above,January '26
+1,Laptop,Dell,Latitude 5430,F4MXSQ3,i7-1265U,16 GB DDR4,256 GB NVMe,D,"Normal W&T, Heavy Tear (Top Cover Edge & Palmrest), Cracked Bottom Cover, Broken Screen",,Yes,GBT,,Spanish Castillian,0.68,Below,January '26
+1,Laptop,Dell,Latitude 3420,F92WGS3,i5-1145G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Small Crack (Bottom Cover), White spot",,Yes,GBT,,Scandinavian (MUI),1,Above,January '26
 1,Laptop,Dell,Latitude 5430,H8M2SQ3,i7-1265U,16 GB DDR4,256 GB NVMe,B,Normal W&T,,Yes,GBT,TRUE,Scandinavian (MUI),1,Above,January '26
 1,Laptop,Dell,Latitude 7440,CJ4HCY3,i7-1370P,32 GB DDR5,512 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover)",,,,,Norwegian,0.69,Below,Nordisk Computer Recycling
 1,Laptop,Dell,Latitude 7410,GX11793,i7-10610U,16 GB DDR4,256 GB NVMe,C,"N W&T, Small Marks on Screen, Worn Keyboard (E,S,Left Shift), Missing Feet, Heavy Tear(Palmrest)",,,,,Norwegian,0.5,Below,Nordisk Computer Recycling
@@ -392,10 +380,10 @@ Normal W&T
 1,Laptop,Dell,Latitude 7450,CHGZZ84,Ultra 7 165H,16 GB DDR5,512 GB NVMe,B,Normal W&T,,,,,Norwegian,0.93,Above,Nordisk Computer Recycling
 1,Laptop,Dell,Latitude 7450,FX90D74,Ultra 7 165H,16 GB DDR5,512 GB NVMe,B,Normal W&T,,,,,Norwegian,1,Above,Nordisk Computer Recycling
 1,Laptop,Dell,Latitude 7450,6SMCX54,Ultra 7 165H,16 GB DDR5,512 GB NVMe,C,"Normal W&T, Marks on screen",,,,,Norwegian,0.96,Above,Nordisk Computer Recycling
-1,Laptop,Dell,Latitude 7440,BPRC9Y3,i7-1370P,16 GB DDR5,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover)",,,,,Norwegian,0.96,Above,Nordisk Computer Recycling
-1,Laptop,Dell,Latitude 7440,3MJH114,i7-1370P,32 GB DDR5,512 GB NVMe,B,Normal W&T,,,,,Norwegian,0.8,Above,Nordisk Computer Recycling
-1,Laptop,Dell,Latitude 7420,6KP4QN3,i7-1185G7,32 GB DDR4,256 GB NVMe,B,Normal W&T,,,,,Hungarian,0.86,Above,Nordisk Computer Recycling
-1,Laptop,Dell,Latitude 7420,1TQ24J3,i7-1185G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover)",,,,,Norwegian,0.62,Below,Nordisk Computer Recycling
+1,Laptop,Dell,Latitude 7440,BPRC9Y3,i7-1370P,16 GB DDR5,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover)",,,,,Norwegian,96.00%,Above,Nordisk Computer Recycling
+1,Laptop,Dell,Latitude 7440,3MJH114,i7-1370P,32 GB DDR5,512 GB NVMe,B,Normal W&T,,,,,Norwegian,80.00%,Above,Nordisk Computer Recycling
+1,Laptop,Dell,Latitude 7420,6KP4QN3,i7-1185G7,32 GB DDR4,256 GB NVMe,B,Normal W&T,,,,,Hungarian,86.00%,Above,Nordisk Computer Recycling
+1,Laptop,Dell,Latitude 7420,1TQ24J3,i7-1185G7,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover)",,,,,Norwegian,62.00%,Below,Nordisk Computer Recycling
 1,Laptop,Dell,Latitude 7430,6C2W1T3,i7-1270P,32 GB DDR5,512 GB NVMe,C,"Normal W&T, Heavy Wear (Top Cover, Palmrest), Worn Trackpad",,,,,Norwegian,0.71,Below,Nordisk Computer Recycling
 1,Laptop,Dell,Latitude 7420,BB597M3,i7-1185G7,16 GB DDR4,256 GB NVMe,B,Normal W&T,,,,,Norwegian,0.42,Below,Nordisk Computer Recycling
 1,Laptop,Dell,Latitude 5430,JQ35WV3,i5-1245U,16 GB DDR4,256 GB NVMe,C,"Normal W&T, Heavy Tear (Top Cover), Broken Bezel",,,,,Norwegian,0.81,Above,Nordisk Computer Recycling
@@ -403,21 +391,17 @@ Normal W&T
 1,Laptop,Dell,Latitude 3420,1L4WGS3,i5-1145G7,16 GB DDR4,256 GB,C,"Normal W&T, Defective Keyboard (Unresponsive Key), Marks on Screen",,Yes,GBT,,Scandinavian (MUI),0.72,Below,January '26
 1,Laptop,Dell,Latitude 5420,4K8K4J3,i7-1185G7,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,,English UK,0.89,Above,February '26
 1,Laptop,Dell,Latitude 5400,6FTNQ13,i5-8365U,8 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,,English UK/Irish,0.74,Below,February '26
-1,Laptop,Dell,Latitude 5420,F93R2M3,i7-1185G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover)",,Yes,GBT,,Nordic (MUI),1,Above,February '26
 1,Laptop,Dell,Latitude 5420,BCHNJQ3,i7-1185G7,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,,German,0.75,Below,February '26
 1,Laptop,Dell,Latitude 5420,C3GB6M3,i7-1185G7,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,,German,0.74,Below,February '26
 1,Laptop,Dell,Latitude 5420,5VLC6J3,i7-1185G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Bottom Cover), Marks on Screen, Drop Damage (Palmrest)",,Yes,GBT,,Belgian,0.93,Above,February '26
 1,Laptop,Dell,Latitude 5420,GM903M3,i7-1185G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover & Palmrest), Worn Keyboard",,Yes,GBT,,English UK,0.84,Above,February '26
 1,Laptop,Dell,Latitude 5420,1T5XFK3,i7-1185G7,16 GB DDR4,256 GB,C,"Normal W&T, Marks on Screen, Whitespot on Screen, Heavy Tear (Bezel, Top and Bottom Cover)",,Yes,GBT,,Spanish Castillian,0.6,Below,February '26
 1,Laptop,Dell,Latitude 5420,B9T74J3,i7-1185G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top cover)",,Yes,GBT,,Spanish Castillian,0.78,Below,February '26
-1,Laptop,Dell,Latitude 5420,DQWQ1F3,i7-1185G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover)",,Yes,GBT,,Czech/Slovakian,74.00%,Below,February '26
-1,Laptop,Dell,Latitude 7480,GRFHBH2,i5-6300U,8 GB DDR4,256 GB,C,"Normal W&T, Marks on Screen",,No,,,German,85.00%,Above,February '26
-1,Laptop,Dell,Latitude 5420,G93Z3D3,i7-1185G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top cover)",,No,,,German,56.00%,Below,February '26
-1,Laptop,Dell,Latitude 5410,GSYL593,i7-10610U,16 GB DDR4,256 GB,C,"Normal W&T, Worn Keyboard (E,R Key)",,No,,,French,12.00%,Below,February '26
-1,Laptop,Dell,Latitude 5410,FMJJ593,i7-10610U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top and Bottom cover)",,No,,,French,11.00%,Below,February '26
-1,Laptop,Dell,Latitude 5410,7MNL593,i7-10610U,16 GB DDR4,256 GB,C,"Normal W&T, Worn (Q key)",,No,,,French,12.00%,Below,February '26
-1,Laptop,Dell,Latitude 5400,HQM4633,i7-8665U,16 GB DDR4,256 GB,B,Normal W&T,,No,,,Danish,71.00%,Below,February '26
-1,Desktop,Dell,Optiplex 7070 Micro,BLHV833,i7-9700T,16 GB DDR4,256 GB,B,Normal W&T,,No,,,,,,February '26
+1,Laptop,Dell,Latitude 5420,DQWQ1F3,i7-1185G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover)",,Yes,GBT,,Czech/Slovakian,0.74,Below,February '26
+1,Laptop,Dell,Latitude 5420,G93Z3D3,i7-1185G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top cover)",,No,,,German,0.56,Below,February '26
+1,Laptop,Dell,Latitude 5410,GSYL593,i7-10610U,16 GB DDR4,256 GB,C,"Normal W&T, Worn Keyboard (E,R Key)",,No,,,French,0.12,Below,February '26
+1,Laptop,Dell,Latitude 5410,FMJJ593,i7-10610U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top and Bottom cover)",,No,,,French,0.11,Below,February '26
+1,Laptop,Dell,Latitude 5410,7MNL593,i7-10610U,16 GB DDR4,256 GB,C,"Normal W&T, Worn (Q key)",,No,,,French,0.12,Below,February '26
 1,Desktop,Dell,Optiplex 7070 Micro,12TZL53,i7-9700T,16 GB DDR4,256 GB,B,Normal W&T,,No,,,,,,February '26
 1,Desktop,Dell,Optiplex 7000 Micro,F9YBGR3,i7-12700T,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,,,,,February '26
 1,Desktop,Dell,Optiplex 7000 Micro,C9YBGR3,i7-12700T,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,,,,,February '26
@@ -428,11 +412,8 @@ Normal W&T
 1,Desktop,Dell,Optiplex 7090 Micro,3BM6SK3,i7-10700T,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,,,,,February '26
 1,Desktop,Dell,Optiplex 7020 Micro Plus,HKYT854,i5-14600,32 GB DDR5,256 GB,C,"Normal W&T, Bent Chasis (Bottom Left)",,Yes,GBT,,,,,February '26
 1,Desktop,Dell,Optiplex 7090 Micro,CFH3RK3,i7-10700T,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,,,,,February '26
-1,Laptop,Dell,Latitude E7450,39P8562,i5-5300U,8 GB DDR3,256 GB,C,"Normal W&T, Marks on Screen, Can't Install Windows",,,,,German,68.00%,Below,February '26
-1,Laptop,HP,EliteBook 745,5CG52543V8,AMD A6 PRO-7050B R4,4 GB DDR3,16 GB,B,"Normal W&T, Can't install Windows 11",,,,,English UK,100.00%,Above,February '26
 1,Laptop,Lenovo,ThinkPad Yoga 370,MP1DNUFF,i5-7300U,4 GB DDR4,128 GB,C,"Normal W&T, Heavy Tear (Top Cover), Marks on Screen, Defective Keyboard (Unresponsive Keys)",,No,,,German,93.00%,Above,February '26
 1,Laptop,Lenovo,ThinkPad Yoga 370,MP1CZ9HN,i5-7300U,4 GB DDR4,128 GB,C,"Normal W&T, Marks on Screen, Defective Keyboard (Unresponsive Keys), Defective CMOS Battery",,No,,,German,91.00%,Above,February '26
-1,Laptop,HP,HP MT45,5CG00413QY,AMD Ryzen 3 PRO 3300U,8 GB DDR4,128 GB,C,"Normal W&T, Dents (Bottom cover)",,No,,,English UK,100.00%,Above,February '26
 1,Laptop,HP,HP MT45,5CG00429QK,AMD Ryzen 3 PRO 3300U,8 GB DDR4,128 GB,C,"Normal W&T, BIOS Locked",,,,,English UK,Yes,,February '26
 1,Laptop,Dell,Precision 5680,97RW9Y3,i7-13800H,32 GB DDR5,512 GB,B,Normal W&T,,Yes,GBT,,French,0.73,Below,January '26
 1,Laptop,Dell,Precision 5680,390PDY3,i7-13800H,32 GB DDR5,512 GB,B,Normal W&T,,Yes,GBT,,English UK,1,Above,January '26
@@ -452,42 +433,47 @@ Normal W&T
 1,Laptop,Dell,Latitude 3420,9PWRGS3,i5-1145G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover,(D)). Drop Damage Palmrest (D), Marks on Screen (D)",,Yes,GBT,,Belgian,75.00%,,February '26
 1,Laptop,Dell,Latitude 3420,1B2WGS3,i5-1145G7,16 GB DDR4,256 GB,C,"Normal W&T, Marks & Whitespots on Screen (R)",,Yes,GBT,,Scandinavian (MUI),81.00%,,February '26
 1,Laptop,Dell,Latitude 3420,JCY8HS3,i5-1145G7,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,TRUE,Scandinavian (MUI),92.00%,Above,February '26
-1,Laptop,Dell,Latitude 3420,320CHS3,i5-1145G7,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,TRUE,French,100.00%,,February '26
-1,Laptop,Dell,Latitude 3420,9Q0CHS3,i5-1145G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover (R))",,Yes,GBT,,French,84.00%,,February '26
-1,Laptop,Dell,Latitude 3430,361YGS3,i5-1235U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover (R)), Marks on Screen (R)",,Yes,GBT,,Nordic (MUI),63.00%,,February '26
-1,Laptop,Dell,Latitude 5430,50PHSQ3,i7-1265U,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,,English US,88.00%,,February '26
+1,Laptop,Dell,Latitude 3420,320CHS3,i5-1145G7,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,TRUE,French,1,,February '26
+1,Laptop,Dell,Latitude 3420,9Q0CHS3,i5-1145G7,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover (R))",,Yes,GBT,,French,0.84,,February '26
+1,Laptop,Dell,Latitude 3430,361YGS3,i5-1235U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover (R)), Marks on Screen (R)",,Yes,GBT,,Nordic (MUI),0.63,,February '26
+1,Laptop,Dell,Latitude 5430,50PHSQ3,i7-1265U,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,,English US,0.88,,February '26
 1,Laptop,Dell,Latitude 5430,DKVHSQ3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover (R)), Small Marks on Screen, HDD Health 55% (R)",,Yes,GBT,,English US,79.00%,,February '26
 1,Laptop,Dell,Latitude 5430,2HF1TQ3,i7-1265U,16 GB DDR4,256 GB,B,"Normal W&T, Small Marks on Screen",,Yes,GBT,TRUE,Spanish Castillian,100.00%,,February '26
-1,Laptop,Dell,Latitude 5430,BKWYSQ3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Whitespots & Pixel Error on Screen (R)",,Yes,GBT,,German,99.00%,,February '26
+1,Laptop,Dell,Latitude 5430,BKWYSQ3,i7-1255U,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,,German,99.00%,,February '26
 1,Laptop,Dell,Latitude 5430,JV1VRQ3,i7-1265U,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,TRUE,English UK,64.00%,,February '26
 1,Laptop,Dell,Latitude 5430,46WTRQ3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover (R)), Whitespots on Screen",,Yes,GBT,,English UK,86.00%,,February '26
-1,Laptop,Dell,Latitude 5430,1Y1MSQ3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover (R)), Marks on Screen (R)",,Yes,GBT,,English UK,85%,,February '26
-1,Laptop,Dell,Latitude 5430,3RDMSQ3,i7-1265U,16 GB DDR4,256 GB,D,"N W&T, Heavy Tear(Palmrest, Top & Bottom Cover (D)), Marks on Screen (D), Broken Trackpad (D), Defective Fan (D)",,Yes,GBT,,English UK,67%,,February '26
-1,Laptop,Dell,Latitude 5430,1KYHJR3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover (D)), Whitespots on Screen (D)",,Yes,GBT,,English UK,63%,,February '26
-1,Laptop,Dell,Latitude 5430,5KPKKR3,i7-1265U,16 GB DDR4,256 GB,D,"Normal W&T, Heavy Tear (Top Cover (R)), Broken Screen",,Yes,GBT,FALSE,English UK,100%,,February '26
-1,Laptop,Dell,Latitude 5430,4L5LJR3,i7-1255U,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,,English US,100%,,February '26
-1,Laptop,Dell,Latitude 5430,55PQKR3,i7-1265U,16 GB DDR4,256 GB,D,"Normal W&T, Broken Screen (R)",,Yes,GBT,,English UK,84%,,February '26
-1,Laptop,Dell,Latitude 5430,35VXKR3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover (R))","Top cover skin, painted edges",MAR,GBT,TRUE,Swiss (Europe),79%,,February '26
-1,Laptop,Dell,Latitude 5430,G0LRKR3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Broken Webcamera (R), Heavy Tear (Top & Bottom Cover (R))",,Yes,GBT,,English UK,80%,,February '26
-1,Laptop,Dell,Latitude 5430,3LB0WV3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover (R))",,Yes,GBT,TRUE,German,0.83,,February '26
-1,Laptop,Dell,Latitude 5430,4KDJSQ3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Whitespots on Screen (R)",,Yes,GBT,,French (Europe),63.00%,,February '26
+1,Laptop,Dell,Latitude 5430,1Y1MSQ3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover (R)), Marks on Screen (R)",,Yes,GBT,,English UK,85.00%,,February '26
+1,Laptop,Dell,Latitude 5430,3RDMSQ3,i7-1265U,16 GB DDR4,256 GB,D,"N W&T, Heavy Tear(Palmrest, Top & Bottom Cover (D)), Marks on Screen (D), Broken Trackpad (D), Defective Fan (D)",,Yes,GBT,,English UK,67.00%,,February '26
+1,Laptop,Dell,Latitude 5430,1KYHJR3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover (D)), Whitespots on Screen (D)",,Yes,GBT,,English UK,63.00%,,February '26
+1,Laptop,Dell,Latitude 5430,5KPKKR3,i7-1265U,16 GB DDR4,256 GB,D,"Normal W&T, Heavy Tear (Top Cover (R)), Broken Screen",,Yes,GBT,FALSE,English UK,100.00%,,February '26
+1,Laptop,Dell,Latitude 5430,4L5LJR3,i7-1255U,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,,English US,100.00%,,February '26
+1,Laptop,Dell,Latitude 5430,55PQKR3,i7-1265U,16 GB DDR4,256 GB,D,"Normal W&T, Broken Screen (R)",,Yes,GBT,,English UK,84.00%,,February '26
+1,Laptop,Dell,Latitude 5430,35VXKR3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover (R))","Top cover skin, painted edges",MAR,GBT,TRUE,Swiss (Europe),79.00%,,February '26
+1,Laptop,Dell,Latitude 5430,G0LRKR3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Broken Webcamera (R), Heavy Tear (Top & Bottom Cover (R))",,Yes,GBT,,English UK,80.00%,,February '26
+1,Laptop,Dell,Latitude 5430,3LB0WV3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover (R))",,Yes,GBT,TRUE,German,83.00%,,February '26
 1,Laptop,Dell,Latitude 5430,5CZZVV3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Whitespots on Screen (R), Marks on Screen (R), Heavy Tear (Top Cover (R))",,Yes,GBT,,French (Europe),75.00%,,February '26
-1,Laptop,Dell,Latitude 5430,4P5PVV3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover, Bottom Cover & Palmrest (R))",,Yes,GBT,,French (Europe),100%,,February '26
-1,Laptop,Dell,Latitude 5430,BX0RVV3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover), Small Marks on Screen",,Yes,GBT,TRUE,French (Europe),80%,,February '26
-1,Laptop,Dell,Latitude 5430,DDC85X3,i7-1265U,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,TRUE,Spanish Castillian,73%,,February '26
-1,Laptop,Dell,Latitude 5430,5K2J5X3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover (R)), HDD Health 42% (R)",,Yes,GBT,,Spanish Castillian,72%,,February '26
-1,Laptop,Dell,Latitude 5440,5VM4SV3,i7-1365U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover(R)), Marks on Screen (R), Broken Camera Glass (R)",,Yes,GBT,,English UK,68%,,February '26
-1,Laptop,Dell,Precision 5560,GQZRBK3,i7-11800H,16 GB DDR4,512 GB,B,Normal W&T,,Yes,GBT,TRUE,English UK,94%,,February '26
-1,Laptop,Dell,Precision 5560,662T5M3,i7-11800H,16 GB DDR4,512 GB,C,"Normal W&T, Battery Not Charging (R)",,,,,English International,0%,,February '26
-1,Tablet,Apple,Ipad Air Cellular (A1475),DMPQT3GXF4YD,,,16 GB,B,Normal W&T,,,,TRUE,,0.92,,
+1,Laptop,Dell,Latitude 5430,BX0RVV3,i7-1255U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover), Small Marks on Screen",,Yes,GBT,TRUE,French (Europe),80.00%,,February '26
+1,Laptop,Dell,Latitude 5430,DDC85X3,i7-1265U,16 GB DDR4,256 GB,B,Normal W&T,,Yes,GBT,TRUE,Spanish Castillian,73.00%,,February '26
+1,Laptop,Dell,Latitude 5430,5K2J5X3,i7-1265U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top Cover (R)), HDD Health 42% (R)",,Yes,GBT,,Spanish Castillian,72.00%,,February '26
+1,Laptop,Dell,Latitude 5440,5VM4SV3,i7-1365U,16 GB DDR4,256 GB,C,"Normal W&T, Heavy Tear (Top & Bottom Cover(R)), Marks on Screen (R), Broken Camera Glass (R)",,Yes,GBT,,English UK,68.00%,,February '26
+1,Laptop,Dell,Precision 5560,662T5M3,i7-11800H,16 GB DDR4,512 GB,C,"Normal W&T, Battery Not Charging (R)",,,,,English International,0.00%,,February '26
+1,Tablet,Apple,Ipad Air Cellular (A1475),DMPQT3GXF4YD,,,16 GB,B,Normal W&T,,,,TRUE,,92.00%,,
 1,Smartphone,Samsung,Galaxy S23 FE,,,,128 GB,B,Normal W&T,,,,TRUE,,,,Vingaardshus
 1,Laptop,Lenovo,ThinkPad P16 G1,PF3YRQ0M,i7-12800HX,16 GB DDR5,512 Gb NVMe,C,"Normal W&T, Heavy Tear(Top Cover), 85% Disk Health",,,,TRUE,Nordic,"96,0%",,
 1,Laptop,Lenovo,ThinkPad P16 G2,PF4JXN4K,i7-13700HX,32 GB DDR5,1024 GB NVMe,B,"Normal W&T, Keyboard Reprint",,,,TRUE,English (US),"100,0%",,
-1,Laptop,Lenovo,ThinkPad P16 G2,PF4TB0MY,i7-13850HX,64 GB DDR5,512 GB NVMe,B,"Normal W&T, Medium Tear(Top Cover)",,,,TRUE,Nordic,"100,0%",,
 1,Dock,HP,USB-C Dock G5,5CG129V8QQ,,,,B,Normal W&T,,,,FALSE,,,,El-Recycling
 1,Docking Station,Lenovo,40AN,ZJZ0ANZA,N/A,N/A,N/A,B,Normal W&T,,,,TRUE,N/A,N/A,N/A,El-Recycling
 1,Laptop,Dell,Precision 5540,7WPJ353,i7-9850H,32 GB DDR4,512 GB NVMe,B,"Normal W&T (Bemærk; Laptop har Touchscreen, og tjek keyboard før shipping)",,MAR,,TRUE,Nordic (Sticky),0.91,Above,Kosmos
 1,Docking Station,Dell,WD19,G694883,,,,C,"Normal W&T, Heavy Tear (Top, Front, Back cover)",,,,,,,,HUC
 1,Docking Station,Dell,WD19,8VNYN03,,,,C,"Normal W&T, Heavy Tear (Top, Back cover), Edge damage",,,,,,,,HUC
 1,Docking Station,Dell,WD19,4G32523,,,,C,"Normal W&T, Heavy Tear (Top cover)",,,,,,,,HUC
-1,Laptop,Dell,Latitude E7450,8GF2S72,i5-5300U,16 GB DDR3,256 GB,B,"Normal W&T, Small Marks on Screen",,No,,TRUE,Belgian,71%,,HUC
+1,Laptop,Dell,Latitude E7450,8GF2S72,i5-5300U,16 GB DDR3,256 GB,B,"Normal W&T, Small Marks on Screen",,No,,TRUE,Belgian,0.71,,HUC
+1,Desktop,Dell,Optiplex 7090 Micro,7FJ3RK3 ,i7-10700T,32 GB DDR4,512 GB NVMe,B,Normal W&T,Upgraded Memory and GB,MAR,,TRUE,,,,February
+1,Docking Station,Lenovo,40A9,ZAF02V1L,,,,B,Normal W&T,,,,,,,,El-Recycling
+1,Laptop,Lenovo,Thinkpad P16V GEN 1,PF4E62AP,13TH GEN CORE I7-13700H,32 GB DDR5,1 TB,B,Normal W&T,,,,,Nordic,"100,00%",,El-Recycling
+1,Laptop,Lenovo,Thinkpad P16 GEN 1,PF3YRAKM,12TH GEN CORE I7-12800HX,32 GB DDR5,512 GB,B,Normal W&T,,,,,Nordic,"100,00%",,El-Recycling
+1,Laptop,Lenovo,Thinkpad P16 GEN 1,PF3YQZXM,12TH GEN CORE I7-12800HX,32 GB DDR5,512 GB,B,Normal W&T,,,,,Nordic,"98,00%",,El-Recycling
+1,Laptop,Lenovo,Thinkpad P16 GEN 1,PF3YRH6S,12TH GEN CORE I7-12800HX,32 GB DDR5,512 GB,B,Normal W&T,,,,,Nordic,"100,00%",,El-Recycling
+1,Laptop,Lenovo,Thinkpad P16 GEN 1,PF409YHG,12TH GEN CORE I7-12800HX,32 GB DDR5,512 GB,B,"Normal W&T, Reprint",,,,,English US (EU),"100,00%",,El-Recycling
+1,Laptop,Lenovo,Thinkpad P16 GEN 1,PF40BQ5D,12TH GEN CORE I7-12800HX,32 GB DDR5,512 GB,B,Normal W&T,,,,,Nordic,"99,00%",,El-Recycling
+1,Laptop,Lenovo,Thinkpad P16 GEN 1,PF3ZQC05,12TH GEN CORE I7-12800HX,32 GB DDR5,512 GB,B,"Normal W&T, Reprint",,,,,English US (EU),"94,00%",,El-Recycling
